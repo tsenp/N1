@@ -5,109 +5,192 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_1","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"141.193.213.20","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_2","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"news.microsoft.com","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_3","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"news.microsoft.com","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_4","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"141.193.213.20","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_5","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"news.microsoft.com","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇺🇸US美国(youtube阿伟科技)_6","server":"edge01.themars.top","port":40007,"cipher":"chacha20-ietf-poly1305","password":"2a091422-1898-4864-bb71-771cc7cbf716"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_7","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}},"server":"141.193.213.20","port":"443","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_8","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"203.30.191.19","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇺🇸US美国(youtube阿伟科技)_9","server":"148.59.74.216","port":443,"password":"5c0eb7b7-6db9-4ff0-a324-62caa9198930","udp":true,"skip-cert-verify":true,"sni":"vzwzasc.cn","network":"tcp","ws-opts":{"headers":{"host":"🇺🇸US美国(youtube阿伟科技)"}}}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_10","ws-opts":{"path":"/us4/getData","headers":{"host":"us4.verichains.co"}},"server":"67.229.48.248","port":"31659","uuid":"4f6bba56-ae17-409a-a751-f6a020a7393d","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_11","ws-opts":{"path":"/vmws","headers":{"host":"awkj"}},"server":"us1.oceis.net","port":"80","uuid":"e9ff4d30-b9e9-11ed-b039-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_12","ws-opts":{"path":"/shirker","headers":{"host":"dp1.scproxy.top"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_13","ws-opts":{"path":"/us6/getData","headers":{"host":"us6.linkeden.co"}},"server":"67.198.205.224","port":"22196","uuid":"e385f358-c7b8-4e4c-b697-1d0c14043f44","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_14","ws-opts":{"path":"/shirker","headers":{"host":"dp2.scproxy.top"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_15","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_16","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"203.24.108.8","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_17","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgm1.targoocloud.live"}},"server":"project.mytargoocloud.live","port":"443","uuid":"dd83e305-d487-4242-87be-67e3f52116fd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_18","ws-opts":{"path":"/us1/getData","headers":{"host":"us1.linkeden.co"}},"server":"98.126.19.25","port":"30403","uuid":"51bdf7b1-997b-4bce-83c3-0ee6560a8c6a","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_19","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_20","ws-opts":{"path":"/speedtest","headers":{"host":"Seattle.v2ray.online"}},"server":"v2ray.online","port":"443","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_21","ws-opts":{"path":"/pq/nl1?ed=2048","headers":{"host":"nl1.pqjc.buzz"}},"server":"zfc.windowsupdate1.com","port":"443","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_22","ws-opts":{"path":"/pq/fr1?ed=2048","headers":{"host":"fr1.pqjc.buzz"}},"server":"zfc.windowsupdate1.com","port":"443","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇹🇼TW台湾(youtube阿伟科技)_1","server":"shcu01.xc188.net","port":"10005","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇹🇼TW台湾(youtube阿伟科技)_2","ws-opts":{"path":"/mugua","headers":{"host":"tw-load-balancer.myn1des.com"}},"server":"223.111.202.139","port":"63088","uuid":"cef94bbf-8bd7-3565-a1c8-0e311643e657","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇹🇼TW台湾(youtube阿伟科技)_3","server":"36.156.102.164","port":"10003","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"1","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇹🇼TW台湾(youtube阿伟科技)_4","server":"36.156.102.164","port":"10003","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"1","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇹🇼TW台湾(youtube阿伟科技)_5","server":"36.156.102.164","port":"10003","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_1","server":"13.213.36.87","port":"80","uuid":"1b5c3389-d3fa-44a3-939b-a929099f210f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇸🇬SG新加坡(youtube阿伟科技)_2","server":"edge04.themars.top","port":56006,"cipher":"chacha20-ietf-poly1305","password":"2a091422-1898-4864-bb71-771cc7cbf716"}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_3","server":"sg-aws011-tcsix-b99db4f3-5a6f-41e2-a458-643fcce531e7.tcsix.tech","port":"19696","uuid":"b99db4f3-5a6f-41e2-a458-643fcce531e7","alterId":"0","cipher":"auto","network":"kcp"}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_4","ws-opts":{"path":"/sg3/getData","headers":{"host":"sg3.linkeden.co"}},"server":"43.156.11.254","port":"46118","uuid":"19fc4ee4-a4b5-46fd-b4a9-68d3fbc2af17","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇸🇬SG新加坡(youtube阿伟科技)_5","server":"aws.qiongqi8138.ga","port":443,"password":"cf908616-6ab9-437d-a4f0-cea5e7ebc2c2","udp":true,"skip-cert-verify":true,"sni":"aws.qiongqi8138.ga","network":"tcp","ws-opts":{"headers":{"host":"🇸🇬SG新加坡(youtube阿伟科技)"}}}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_6","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}},"server":"quiz.vidio.com","port":"8080","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_7","server":"54.254.184.159","port":"80","uuid":"1b5c3389-d3fa-44a3-939b-a929099f210f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_8","ws-opts":{"path":"/shirker","headers":{"host":"sg1.sharecentrepro.com"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_9","ws-opts":{"path":"/nba","headers":{"host":"sg1.oraclec.pp.ua"}},"server":"hy.guanguan.club","port":"11410","uuid":"5707bceb-1da9-41e1-bd03-1bb3d1c28a2c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_10","ws-opts":{"path":"/shirker","headers":{"host":"sg2.sharecentrepro.com"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_11","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}},"server":"quiz.vidio.com","port":"8080","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_12","ws-opts":{"path":"/pq/sg2?ed=2048","headers":{"host":"sg2.pqjc.buzz"}},"server":"zfc.windowsupdate1.com","port":"443","uuid":"5c0eb7b7-6db9-4ff0-a324-62caa9198930","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_13","ws-opts":{"path":"/pq/sg1?ed=2048","headers":{"host":"sg1.pqjc.buzz"}},"server":"zfc.windowsupdate1.com","port":"443","uuid":"5c0eb7b7-6db9-4ff0-a324-62caa9198930","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇷🇺俄罗斯(youtube阿伟科技)","ws-opts":{"path":"/wo.php","headers":{"host":"els200.jslist.tk"}},"server":"els200.jslist.tk","port":"8443","uuid":"e30cfa80-bc2c-43df-e808-97876aee77e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇰🇷KR韩国(youtube阿伟科技)_1","server":"3.36.108.65","port":"80","uuid":"1b5c3389-d3fa-44a3-939b-a929099f210f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇰🇷KR韩国(youtube阿伟科技)_2","server":"15.165.236.9","port":"80","uuid":"1b5c3389-d3fa-44a3-939b-a929099f210f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"🇰🇷KR韩国(youtube阿伟科技)_3","server":"v2ray2.v2rayfree2.xyz","port":443,"uuid":"3d943a51-a315-4b9d-8f13-6cd3a9adaf6a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray"}}
-  - {"type":"vmess","name":"🇰🇷KR韩国(youtube阿伟科技)_4","server":"15.165.236.9","port":"80","uuid":"f2ebd4ee-5961-464f-bd03-a6b0c7292053","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_1","server":"dj.svip8.cn","port":"10000","uuid":"18cd2ad7-02b0-4959-9ccd-eb02c1155c69","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇯🇵JP日本(youtube阿伟科技)_2","server":"150.66.13.75","port":443,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","udp":true,"skip-cert-verify":true,"sni":"tk15.1coinvp.vip","network":"tcp","ws-opts":{"headers":{"host":"🇯🇵JP日本(youtube阿伟科技)"}}}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_3","server":"54.199.123.66","port":"8080","uuid":"1b5c3389-d3fa-44a3-939b-a929099f210f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_4","server":"54.250.159.191","port":"43632","uuid":"1b5c3389-d3fa-44a3-939b-a929099f210f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_5","server":"dj.svip8.cn","port":"10000","uuid":"18cd2ad7-02b0-4959-9ccd-eb02c1155c69","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇯🇵JP日本(youtube阿伟科技)_6","server":"160.16.115.103","port":443,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","udp":true,"skip-cert-verify":true,"sni":"tk14.1coinvp.vip","network":"tcp","ws-opts":{"headers":{"host":"🇯🇵JP日本(youtube阿伟科技)"}}}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_7","server":"103.45.78.251","port":"10004","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_8","ws-opts":{"path":"/jp6/getData","headers":{"host":"jp6.linkeden.co"}},"server":"54.150.72.99","port":"26885","uuid":"df5045f5-41a6-48be-98c1-b20032a0158e","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_9","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"in-jp-1.iivvppnn.info","port":"38301","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_10","ws-opts":{"path":"/pq/jp1?ed=2048","headers":{"host":"jp1.pqjc.buzz"}},"server":"162.159.142.203","port":"443","uuid":"5c0eb7b7-6db9-4ff0-a324-62caa9198930","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_11","ws-opts":{"path":"/mugua","headers":{"host":"jp-balancer.myn1des.com"}},"server":"223.111.202.139","port":"63086","uuid":"cef94bbf-8bd7-3565-a1c8-0e311643e657","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_12","server":"dj.svip8.cn","port":"10000","uuid":"18cd2ad7-02b0-4959-9ccd-eb02c1155c69","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_13","http-opts":{"path":["/"],"headers":{"Host":["🇯🇵JP日本(youtube阿伟科技)"]}},"server":"141.147.149.186","port":"10344","uuid":"479972b1-e60d-4985-9a7f-dfee6498adb1","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"trojan","name":"🇯🇵JP日本(youtube阿伟科技)_14","server":"dl-jp2.steamdownload.top","port":443,"password":"fdc2753c-b3f6-40da-a16c-9068ed518371","udp":true,"skip-cert-verify":true,"sni":"data-jp.xn--vur082k.cc","network":"tcp","ws-opts":{"headers":{"host":"🇯🇵JP日本(youtube阿伟科技)"}}}
-  - {"type":"trojan","name":"🇯🇵JP日本(youtube阿伟科技)_15","server":"dl-jp1.steamdownload.top","port":443,"password":"fdc2753c-b3f6-40da-a16c-9068ed518371","udp":true,"skip-cert-verify":true,"sni":"data-jp.xn--vur082k.cc","network":"tcp","ws-opts":{"headers":{"host":"🇯🇵JP日本(youtube阿伟科技)"}}}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_16","ws-opts":{"path":"/pq/jp3?ed=2048","headers":{"host":"jp3.pqjc.buzz"}},"server":"zfc.windowsupdate1.com","port":"443","uuid":"5c0eb7b7-6db9-4ff0-a324-62caa9198930","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_17","ws-opts":{"path":"/pq/jp2?ed=2048","headers":{"host":"jp2.pqjc.buzz"}},"server":"zfc.windowsupdate1.com","port":"443","uuid":"5c0eb7b7-6db9-4ff0-a324-62caa9198930","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_18","server":"54.199.123.66","port":"43632","uuid":"18e11fe4-b220-4574-b0f8-cdf9bdfc2950","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_19","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"awkj"}},"server":"jp04-vm0.entry.srthdw.art","port":"449","uuid":"d97a9a84-b6b8-3ab1-9054-dcfcd67b8e85","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇮🇳IN印度(youtube阿伟科技)","server":"65.1.130.49","port":"80","uuid":"1b5c3389-d3fa-44a3-939b-a929099f210f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_1","server":"18.163.210.155","port":"43632","uuid":"1b5c3389-d3fa-44a3-939b-a929099f210f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_2","server":"43.198.111.21","port":"80","uuid":"1b5c3389-d3fa-44a3-939b-a929099f210f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_3","server":"36.156.102.166","port":"10001","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_4","server":"20.187.86.246","port":"69","uuid":"9589b882-569a-43c5-924e-a9e852d4ff9e","alterId":"0","cipher":"auto","network":"kcp"}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_5","server":"36.156.102.166","port":"10001","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_6","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_7","server":"36.156.102.166","port":"10001","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_8","ws-opts":{"path":"/hk4/getData","headers":{"host":"hk5.linkeden.co"}},"server":"43.154.90.134","port":"57074","uuid":"6b6dd11a-798c-401e-ba46-d6272e29aca3","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_9","server":"18.163.210.155","port":"80","uuid":"18e11fe4-b220-4574-b0f8-cdf9bdfc2950","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇫🇷FR法国(youtube阿伟科技)_1","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}},"server":"141.193.213.21","port":"443","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇫🇷FR法国(youtube阿伟科技)_2","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.v2ray.online"}},"server":"185.193.30.158","port":"443","uuid":"A59E320C-BAC6-45E3-8A27-1518610708D0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇩🇪DE德国(youtube阿伟科技)_1","ws-opts":{"path":"/"},"server":"srfre-mehdi2.vahidtoni.life","port":"443","uuid":"7f33840f-40e5-47bf-b50f-5907e43bea7a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇩🇪DE德国(youtube阿伟科技)_2","http-opts":{"path":["/"],"headers":{"Host":["🇩🇪DE德国(youtube阿伟科技)"]}},"server":"srvet-4.mehyaz.shop","port":"18638","uuid":"9961e987-ec2b-4998-aa03-67825bf6a45d","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"🇩🇪DE德国(youtube阿伟科技)_3","ws-opts":{"path":"/","headers":{"host":"cs1.bbcloud.life"}},"server":"cs1.bbcloud.life","port":"41406","uuid":"d0731cf1-db62-478d-aa20-3b73b98a9c6f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇩🇪DE德国(youtube阿伟科技)_4","server":"84.252.121.218","port":443,"password":"5c0eb7b7-6db9-4ff0-a324-62caa9198930","udp":true,"skip-cert-verify":true,"sni":"vzwzasc.cn","network":"tcp","ws-opts":{"headers":{"host":"🇩🇪DE德国(youtube阿伟科技)"}}}
-  - {"type":"vmess","name":"🇩🇪DE德国(youtube阿伟科技)_5","ws-opts":{"path":"/","headers":{"host":"arsalan.arsalanv3.sbs"}},"server":"arsalan.arsalanv3.sbs","port":"2095","uuid":"c219b33f-f3c3-4f70-9e12-79b4618a210e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇦CA加拿大(youtube阿伟科技)_1","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇦CA加拿大(youtube阿伟科技)_2","ws-opts":{"path":"/index","headers":{"host":"4e7cc378.8200860.xyz"}},"server":"cf.bakapie.cf","port":"2096","uuid":"72fd33d5-5c1a-4193-96c6-665fc20b71c1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇦🇺AU澳大利亚(youtube阿伟科技)","ws-opts":{"path":"/","headers":{"host":"AWKJ"}},"server":"20.205.214.65","port":"35848","uuid":"b8ec1401-e5c1-4299-b315-9694cca0c2f8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"lu(youtube阿伟科技)","ws-opts":{"path":"/index","headers":{"host":"c7d5ea85.8200860.xyz"}},"server":"cf.bakapie.cf","port":"2096","uuid":"72fd33d5-5c1a-4193-96c6-665fc20b71c1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"ARG阿根廷(youtube阿伟科技)","server":"zhuhai.cfcloud.life","port":19399,"cipher":"chacha20-ietf-poly1305","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
+  - {"type":"ss","name":"FR法国(youtube阿伟科技)","server":"zhuhai.cfcloud.life","port":41831,"cipher":"chacha20-ietf-poly1305","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
   - {"type":"vmess","name":"KH柬埔寨(youtube阿伟科技)","ws-opts":{"path":"/shirker","headers":{"host":"kh1.scproxy.top"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"GB英国(youtube阿伟科技)","server":"54.254.184.159","port":"9000","uuid":"f2ebd4ee-5961-464f-bd03-a6b0c7292053","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"FI芬兰(youtube阿伟科技)_1","server":"45.85.118.88","port":2087,"uuid":"b098f8f6-8c77-433e-e53f-5632652ec29c","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@sirr_lege3d"},"servername":"ri.elface.me"}
-  - {"type":"vless","name":"FI芬兰(youtube阿伟科技)_2","server":"45.85.118.20","port":443,"uuid":"d2806dec-3915-4057-c5f1-cc57e014605e","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"misbon.enosjast.store"}
-  - {"type":"vmess","name":"FI芬兰(youtube阿伟科技)_3","ws-opts":{"path":"/","headers":{"host":"arsalan.arsalanv3.sbs"}},"server":"arsalan.arsalanv3.sbs","port":"2095","uuid":"c219b33f-f3c3-4f70-9e12-79b4618a210e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ssr","name":"【A】台湾VIP3-中华电信","server":"s100.boom.skin","port":19000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"download.windowsupdate.com","protocol-param":"363494:rmx09S"}
-  - {"type":"ssr","name":"【C】美国VIP2-Netflix","server":"us6.edge.boom.skin","port":45000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"download.windowsupdate.com","protocol-param":"363494:rmx09S"}
-  - {"type":"ssr","name":"【F】新加坡VIPB-DO","server":"n110.boom.skin","port":22000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"download.windowsupdate.com","protocol-param":"363494:rmx09S"}
-  - {"type":"ssr","name":"【J】香港VIPB-Netflix","server":"njb.boom.skin","port":21000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"download.windowsupdate.com","protocol-param":"363494:rmx09S"}
-  - {"type":"ssr","name":"【L】马来西亚VIP1-TMNet","server":"s101.boom.skin","port":32000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"download.windowsupdate.com","protocol-param":"363494:rmx09S"}
-  - {"type":"ssr","name":"【L】新加坡VIP4-Netflix","server":"nl4.boom.skin","port":25000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"download.windowsupdate.com","protocol-param":"363494:rmx09S"}
-  - {"type":"ssr","name":"【N】日本VIP12-Nerocloud","server":"jp17.boom.skin","port":39700,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"http_simple","password":"Uk92CS","obfs-param":"download.windowsupdate.com","protocol-param":"363494:rmx09S"}
+  - {"type":"ss","name":"LU卢森堡(youtube阿伟科技)_1","server":"zhuhai.cfcloud.life","port":17385,"cipher":"chacha20-ietf-poly1305","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
+  - {"type":"vmess","name":"LU卢森堡(youtube阿伟科技)_2","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"buyvm.cloudflare.quest"}},"server":"no.aries.ovh","port":"2052","uuid":"88aa4851-2b1e-404c-a453-685f12489f9d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"SA沙特阿拉伯(youtube阿伟科技)","server":"sajs.stablize.top","port":443,"password":"8d3fbaf4-029c-4d38-add0-e7f5d613ac5e","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"UAE迪拜流(youtube阿伟科技)","server":"uaejs.stablize.top","port":443,"password":"8d3fbaf4-029c-4d38-add0-e7f5d613ac5e","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"UK英国(youtube阿伟科技)","server":"ukjs.stablize.top","port":443,"password":"8d3fbaf4-029c-4d38-add0-e7f5d613ac5e","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"🇦🇺AU澳大利亚(youtube阿伟科技)_1","server":"ap.stablize.top","port":443,"password":"8d3fbaf4-029c-4d38-add0-e7f5d613ac5e","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"vmess","name":"🇦🇺AU澳大利亚(youtube阿伟科技)_2","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"contabo.cloudflare.quest"}},"server":"no.aries.ovh","port":"2052","uuid":"88aa4851-2b1e-404c-a453-685f12489f9d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇦CA加拿大(youtube阿伟科技)_1","ws-opts":{"path":"/vmess","headers":{"host":"ca1.xvless.xyz"}},"server":"ca1.xvless.xyz","port":"443","uuid":"40c43ed4-b826-4d29-8f11-ebbafd361a3b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇦CA加拿大(youtube阿伟科技)_2","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇩🇪DE德国(youtube阿伟科技)_1","server":"172.105.86.12","port":29405,"cipher":"chacha20-ietf-poly1305","password":"3751301064"}
+  - {"type":"vmess","name":"🇩🇪DE德国(youtube阿伟科技)_2","ws-opts":{"path":"/","headers":{"host":"cs1.bbcloud.life"}},"server":"cs1.bbcloud.life","port":"41406","uuid":"d0731cf1-db62-478d-aa20-3b73b98a9c6f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪DE德国(youtube阿伟科技)_3","ws-opts":{"path":"/@parsashonam","headers":{"host":"awkj"}},"server":"95.216.183.164","port":"11111","uuid":"60dcd710-a1a1-4ad7-b0df-47aa98e62b6a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪DE德国(youtube阿伟科技)_4","ws-opts":{"path":"/8kH8qnepjkprbsidLrLkmX","headers":{"host":"germany2.yj2022.ga"}},"server":"germany2.yj2022.ga","port":"443","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇫🇷FR法国(youtube阿伟科技)","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}},"server":"141.193.213.21","port":"443","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇬🇧GB英国(youtube阿伟科技)_1","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"cfgb2.baf1.sbs"}},"server":"cfgb2.baf1.sbs","port":"443","uuid":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇬🇧GB英国(youtube阿伟科技)_2","ws-opts":{"path":"/E86414F638E11","headers":{"host":"france1.yj2022.ga"}},"server":"france1.yj2022.ga","port":"443","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇬🇧GB英国(youtube阿伟科技)_3","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"uk.cloudflare.quest"}},"server":"no.aries.ovh","port":"2052","uuid":"88aa4851-2b1e-404c-a453-685f12489f9d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧GB英国(youtube阿伟科技)_4","server":"54.254.184.159","port":"9000","uuid":"b07f6601-bc43-4aae-89e7-f5d6e3366bd3","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇬🇧英国(youtube阿伟科技)","server":"139.162.222.197","port":29405,"cipher":"chacha20-ietf-poly1305","password":"3751301064"}
+  - {"type":"trojan","name":"🇭🇰HK香港(youtube阿伟科技)_1","server":"awshk5-tg-data.amazonwebservicess.com","port":443,"password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71","udp":true,"skip-cert-verify":true,"sni":"data.amazonwebservicess.com","network":"tcp","ws-opts":{"headers":{"host":"🇭🇰HK香港(youtube阿伟科技)"}}}
+  - {"type":"trojan","name":"🇭🇰HK香港(youtube阿伟科技)_2","server":"dl-hk6.steamdownload.top","port":443,"password":"d7fdbf6d-6c9b-41af-924f-5944cd88dcf5","udp":true,"skip-cert-verify":true,"sni":"data-hk.xn--vur082k.cc","network":"tcp","ws-opts":{"headers":{"host":"🇭🇰HK香港(youtube阿伟科技)"}}}
+  - {"type":"trojan","name":"🇭🇰HK香港(youtube阿伟科技)_3","server":"dl-hk6.steamdownload.top","port":443,"password":"c30b14da-adac-4bb3-ac27-c5759d4890ac","udp":true,"skip-cert-verify":true,"sni":"data-hk.xn--vur082k.cc","network":"tcp","ws-opts":{"headers":{"host":"🇭🇰HK香港(youtube阿伟科技)"}}}
+  - {"type":"ss","name":"🇭🇰HK香港(youtube阿伟科技)_4","server":"ahyd.pangupy.com","port":39785,"cipher":"aes-128-gcm","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_5","server":"36.156.102.166","port":"10001","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_6","server":"36.156.102.166","port":"10001","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_7","server":"36.156.102.166","port":"10001","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_8","ws-opts":{"path":"/","headers":{"host":"ytb-awkj"}},"server":"v21.gaowosiquanjia.top","port":"80","uuid":"dcc43c72-b4ae-4c6d-9454-78650144f33c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_9","server":"36.156.102.166","port":"10001","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_10","server":"0kxedm1x8q8lksmj01.xingbayun.buzz","port":"1001","uuid":"5eb28488-7c95-4f39-b711-e5cc96ec1756","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_11","server":"0kxedm1x8q8lksmj01.xingbayun.buzz","port":"1001","uuid":"5eb28488-7c95-4f39-b711-e5cc96ec1756","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_12","server":"0kxedm1x8q8lksmj01.xingbayun.buzz","port":"1001","uuid":"5eb28488-7c95-4f39-b711-e5cc96ec1756","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_13","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"awkj"}},"server":"cd69.cdn.node.a.tddns-ounk.com","port":"13503","uuid":"44b418e7-1cf3-3b37-bd6f-10d96874d1af","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_14","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"awkj"}},"server":"cd69.cdn.node.a.tddns-ounk.com","port":"13665","uuid":"44b418e7-1cf3-3b37-bd6f-10d96874d1af","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_15","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtube阿伟科技)_16","server":"18.163.210.155","port":"43632","uuid":"b07f6601-bc43-4aae-89e7-f5d6e3366bd3","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇮🇳IN印度(youtube阿伟科技)","server":"in.stablize.top","port":443,"password":"8d3fbaf4-029c-4d38-add0-e7f5d613ac5e","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"ss","name":"🇯🇵JP日本(youtube阿伟科技)_1","server":"zhuhai.cfcloud.life","port":13204,"cipher":"chacha20-ietf-poly1305","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
+  - {"type":"ss","name":"🇯🇵JP日本(youtube阿伟科技)_2","server":"ahcu.pangupy.com","port":11086,"cipher":"chacha20-ietf-poly1305","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
+  - {"type":"ss","name":"🇯🇵JP日本(youtube阿伟科技)_3","server":"ahcu.pangupy.com","port":59469,"cipher":"chacha20-ietf-poly1305","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
+  - {"type":"ss","name":"🇯🇵JP日本(youtube阿伟科技)_4","server":"jmcm.xn--dlq110j6ul.cc","port":30441,"cipher":"chacha20-ietf-poly1305","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
+  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_5","server":"awsjp7-tg-data.amazonwebservicess.com","port":"10301","uuid":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_6","server":"dj.svip8.cn","port":"10000","uuid":"18cd2ad7-02b0-4959-9ccd-eb02c1155c69","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_7","ws-opts":{"path":"/xuexi","headers":{"host":"hongbozeng.ml"}},"server":"hongbozeng.ml","port":"443","uuid":"860b543f-5039-473b-96ec-4494aebe4416","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_8","ws-opts":{"path":"/mugua","headers":{"host":"jp-balancer.myn1des.com"}},"server":"223.111.202.139","port":"63086","uuid":"cef94bbf-8bd7-3565-a1c8-0e311643e657","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_9","server":"dj.svip8.cn","port":"10000","uuid":"18cd2ad7-02b0-4959-9ccd-eb02c1155c69","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_10","ws-opts":{"path":"/cctv13.m3u8","headers":{"host":"jp06.cctvvip.ml"}},"server":"172.64.150.150","port":"443","uuid":"142fcf72-fd39-4cd7-cbf8-064014c8b4e6","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_11","server":"dj.svip8.cn","port":"10000","uuid":"d89ccf42-e9e9-4a0d-8230-8bee621f970e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_12","http-opts":{"path":["/"],"headers":{"Host":["🇯🇵JP日本(youtube阿伟科技)"]}},"server":"141.147.149.186","port":"10344","uuid":"479972b1-e60d-4985-9a7f-dfee6498adb1","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"🇯🇵JP日本(youtube阿伟科技)_13","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"jp03-vm0.entry.srthdw.art"}},"server":"jp03-vm0.entry.srthdw.art","port":"444","uuid":"88f09708-5186-325f-b4a7-861dec2274bf","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇰🇷KR韩国(youtube阿伟科技)_1","server":"kr.stablize.top","port":443,"password":"8d3fbaf4-029c-4d38-add0-e7f5d613ac5e","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"vmess","name":"🇰🇷KR韩国(youtube阿伟科技)_2","ws-opts":{"path":"/vmess","headers":{"host":"v2kr1.cosdayan.top"}},"server":"v2kr1.cosdayan.top","port":"443","uuid":"6440f9c6-9514-4fb5-f281-3aad1d1418be","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇰🇷KR韩国(youtube阿伟科技)_3","server":"3.36.108.65","port":"80","uuid":"5a883d0b-1140-405d-bf83-622cce76bde5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇷🇺RU俄罗斯(youtube阿伟科技)","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"ru.cloudflare.quest"}},"server":"no.aries.ovh","port":"2052","uuid":"88aa4851-2b1e-404c-a453-685f12489f9d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇸🇬SG新加坡(youtube阿伟科技)_1","server":"dl-sg1.steamdownload.top","port":50000,"password":"c30b14da-adac-4bb3-ac27-c5759d4890ac","udp":true,"skip-cert-verify":true,"sni":"data-sg.xn--vur082k.cc","network":"tcp","ws-opts":{"headers":{"host":"🇸🇬SG新加坡(youtube阿伟科技)"}}}
+  - {"type":"trojan","name":"🇸🇬SG新加坡(youtube阿伟科技)_2","server":"dl-sg1.steamdownload.top","port":50000,"password":"d7fdbf6d-6c9b-41af-924f-5944cd88dcf5","udp":true,"skip-cert-verify":true,"sni":"data-sg.xn--vur082k.cc","network":"tcp","ws-opts":{"headers":{"host":"🇸🇬SG新加坡(youtube阿伟科技)"}}}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtube阿伟科技)_3","server":"hzdx.pangupy.com","port":23868,"cipher":"chacha20-ietf-poly1305","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtube阿伟科技)_4","server":"zhuhai.cfcloud.life","port":33545,"cipher":"chacha20-ietf-poly1305","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_5","ws-opts":{"path":"/1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady","headers":{"host":"awkj"}},"server":"awssg3-tg-data.amazonwebservicess.com","port":"80","uuid":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_6","ws-opts":{"path":"/project4gyuna.pw","headers":{"host":"awkj-youtube"}},"server":"172.104.171.64","port":"80","uuid":"5bb6b5c3-40dd-4a1f-9f43-802320cc5b56","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_7","ws-opts":{"path":"/mugua","headers":{"host":"sg-balancer.tencent.best"}},"server":"223.111.202.139","port":"63087","uuid":"cef94bbf-8bd7-3565-a1c8-0e311643e657","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_8","ws-opts":{"path":"/nba","headers":{"host":"sg1.oraclec.pp.ua"}},"server":"hy.guanguan.club","port":"11410","uuid":"5707bceb-1da9-41e1-bd03-1bb3d1c28a2c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_9","ws-opts":{"path":"/ssvcus","headers":{"host":"sg.718398.xyz"}},"server":"sg.718398.xyz","port":"8443","uuid":"6a091996-d012-4e5e-8448-8abe681eab99","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_10","server":"sc.svip8.cn","port":"10000","uuid":"d89ccf42-e9e9-4a0d-8230-8bee621f970e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_11","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.coaw"}},"server":"quiz.vidio.com","port":"8080","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_12","server":"sc.svip8.cn","port":"10000","uuid":"dab765bb-0d68-40f2-a27a-ba78551844cf","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_13","ws-opts":{"path":"/savcus","headers":{"host":"sg2.seeworld.proaw"}},"server":"sg2.seeworld.pro","port":"8880","uuid":"6a091996-d012-4e5e-8448-8abe681eab99","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_14","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}},"server":"www.udemy.com","port":"8080","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtube阿伟科技)_15","server":"sc.svip8.cn","port":"10000","uuid":"d89ccf42-e9e9-4a0d-8230-8bee621f970e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇹🇼TW台湾(youtube阿伟科技)_1","server":"zhuhai.cfcloud.life","port":53571,"password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71","udp":true,"skip-cert-verify":true,"sni":"data.amazonwebservicess.com","network":"tcp"}
+  - {"type":"vmess","name":"🇹🇼TW台湾(youtube阿伟科技)_2","ws-opts":{"path":"/mugua","headers":{"host":"tw-load-balancer.myn1des.com"}},"server":"223.111.202.139","port":"63088","uuid":"cef94bbf-8bd7-3565-a1c8-0e311643e657","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇹🇼TW台湾(youtube阿伟科技)_3","server":"shcu01.xc188.net","port":"10005","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇹🇼TW台湾(youtube阿伟科技)_4","server":"36.156.102.164","port":"10003","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇹🇼TW台湾(youtube阿伟科技)_5","server":"36.156.102.164","port":"10003","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇹🇼TW台湾(youtube阿伟科技)_6","server":"36.156.102.164","port":"10003","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸US美国(youtube阿伟科技)_1","server":"usa.stablize.top","port":443,"password":"8d3fbaf4-029c-4d38-add0-e7f5d613ac5e","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸US美国(youtube阿伟科技)_2","server":"hkjs.stablize.top","port":443,"password":"8d3fbaf4-029c-4d38-add0-e7f5d613ac5e","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸US美国(youtube阿伟科技)_3","server":"iplc.xiaohouzi.club","port":20039,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","udp":true,"skip-cert-verify":true,"sni":"iplc.xiaohouzi.club","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_4","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"news.microsoft.com","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_5","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"news.microsoft.com","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_6","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"203.24.108.8","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_7","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"141.193.213.20","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_8","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}},"server":"141.193.213.20","port":"443","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_9","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"203.30.191.19","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_10","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"203.24.108.8","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_11","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_12","ws-opts":{"path":"/pq/nl1?ed=2048","headers":{"host":"nl1.pqjc.buzz"}},"server":"zfc.windowsupdate1.com","port":"443","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_13","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"141.193.213.20","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_14","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.103","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_15","ws-opts":{"path":"/SRhXKZqggNrPMELA525Kw","headers":{"host":"america2.yj2022.ga"}},"server":"america2.yj2022.ga","port":"443","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_16","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_17","ws-opts":{"path":"/api","headers":{"host":"us12.cachexy.ga"}},"server":"cdn.xia.me","port":"443","uuid":"68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)_18","ws-opts":{"path":"/shirker","headers":{"host":"dp1.scproxy.top"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇻🇳VN越南(youtube阿伟科技)_1","ws-opts":{"path":"/project4gyuna.pw","headers":{"host":"49.236.209.45"}},"server":"49.236.209.45","port":"80","uuid":"5bb6b5c3-40dd-4a1f-9f43-802320cc5b56","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇻🇳VN越南(youtube阿伟科技)_2","ws-opts":{"path":"/yunavpn.com","headers":{"host":"awkj"}},"server":"7374.yunagrp.com","port":"80","uuid":"5bb6b5c3-40dd-4a1f-9f43-802320cc5b56","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"土耳其(youtube阿伟科技)","server":"zhuhai.cfcloud.life","port":23050,"cipher":"chacha20-ietf-poly1305","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
+  - {"type":"ss","name":"以色列(youtube阿伟科技)","server":"zhuhai.cfcloud.life","port":53687,"cipher":"aes-128-gcm","password":"feb4be09-f4a3-4d09-ad8f-41c1f8fbca71"}
+  - {"type":"vmess","name":"印度(youtube阿伟科技)","server":"65.1.130.49","port":"80","uuid":"5a883d0b-1140-405d-bf83-622cce76bde5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技)_17","server":"112.33.52.63","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技)_18","server":"112.33.52.63","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs"}
+  - {"type":"ssr","name":"🇭🇰HK香港(youtube阿伟科技)_19","server":"z0113.security-cloudfront-cdn.com","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - ARG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - KH柬埔寨(youtube阿伟科技)
+      - LU卢森堡(youtube阿伟科技)_1
+      - LU卢森堡(youtube阿伟科技)_2
+      - SA沙特阿拉伯(youtube阿伟科技)
+      - UAE迪拜流(youtube阿伟科技)
+      - UK英国(youtube阿伟科技)
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_1
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_2
+      - 🇨🇦CA加拿大(youtube阿伟科技)_1
+      - 🇨🇦CA加拿大(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_1
+      - 🇩🇪DE德国(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_3
+      - 🇩🇪DE德国(youtube阿伟科技)_4
+      - 🇫🇷FR法国(youtube阿伟科技)
+      - 🇬🇧GB英国(youtube阿伟科技)_1
+      - 🇬🇧GB英国(youtube阿伟科技)_2
+      - 🇬🇧GB英国(youtube阿伟科技)_3
+      - 🇬🇧GB英国(youtube阿伟科技)_4
+      - 🇬🇧英国(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_1
+      - 🇭🇰HK香港(youtube阿伟科技)_2
+      - 🇭🇰HK香港(youtube阿伟科技)_3
+      - 🇭🇰HK香港(youtube阿伟科技)_4
+      - 🇭🇰HK香港(youtube阿伟科技)_5
+      - 🇭🇰HK香港(youtube阿伟科技)_6
+      - 🇭🇰HK香港(youtube阿伟科技)_7
+      - 🇭🇰HK香港(youtube阿伟科技)_8
+      - 🇭🇰HK香港(youtube阿伟科技)_9
+      - 🇭🇰HK香港(youtube阿伟科技)_10
+      - 🇭🇰HK香港(youtube阿伟科技)_11
+      - 🇭🇰HK香港(youtube阿伟科技)_12
+      - 🇭🇰HK香港(youtube阿伟科技)_13
+      - 🇭🇰HK香港(youtube阿伟科技)_14
+      - 🇭🇰HK香港(youtube阿伟科技)_15
+      - 🇭🇰HK香港(youtube阿伟科技)_16
+      - 🇮🇳IN印度(youtube阿伟科技)
+      - 🇯🇵JP日本(youtube阿伟科技)_1
+      - 🇯🇵JP日本(youtube阿伟科技)_2
+      - 🇯🇵JP日本(youtube阿伟科技)_3
+      - 🇯🇵JP日本(youtube阿伟科技)_4
+      - 🇯🇵JP日本(youtube阿伟科技)_5
+      - 🇯🇵JP日本(youtube阿伟科技)_6
+      - 🇯🇵JP日本(youtube阿伟科技)_7
+      - 🇯🇵JP日本(youtube阿伟科技)_8
+      - 🇯🇵JP日本(youtube阿伟科技)_9
+      - 🇯🇵JP日本(youtube阿伟科技)_10
+      - 🇯🇵JP日本(youtube阿伟科技)_11
+      - 🇯🇵JP日本(youtube阿伟科技)_12
+      - 🇯🇵JP日本(youtube阿伟科技)_13
+      - 🇰🇷KR韩国(youtube阿伟科技)_1
+      - 🇰🇷KR韩国(youtube阿伟科技)_2
+      - 🇰🇷KR韩国(youtube阿伟科技)_3
+      - 🇷🇺RU俄罗斯(youtube阿伟科技)
+      - 🇸🇬SG新加坡(youtube阿伟科技)_1
+      - 🇸🇬SG新加坡(youtube阿伟科技)_2
+      - 🇸🇬SG新加坡(youtube阿伟科技)_3
+      - 🇸🇬SG新加坡(youtube阿伟科技)_4
+      - 🇸🇬SG新加坡(youtube阿伟科技)_5
+      - 🇸🇬SG新加坡(youtube阿伟科技)_6
+      - 🇸🇬SG新加坡(youtube阿伟科技)_7
+      - 🇸🇬SG新加坡(youtube阿伟科技)_8
+      - 🇸🇬SG新加坡(youtube阿伟科技)_9
+      - 🇸🇬SG新加坡(youtube阿伟科技)_10
+      - 🇸🇬SG新加坡(youtube阿伟科技)_11
+      - 🇸🇬SG新加坡(youtube阿伟科技)_12
+      - 🇸🇬SG新加坡(youtube阿伟科技)_13
+      - 🇸🇬SG新加坡(youtube阿伟科技)_14
+      - 🇸🇬SG新加坡(youtube阿伟科技)_15
+      - 🇹🇼TW台湾(youtube阿伟科技)_1
+      - 🇹🇼TW台湾(youtube阿伟科技)_2
+      - 🇹🇼TW台湾(youtube阿伟科技)_3
+      - 🇹🇼TW台湾(youtube阿伟科技)_4
+      - 🇹🇼TW台湾(youtube阿伟科技)_5
+      - 🇹🇼TW台湾(youtube阿伟科技)_6
       - 🇺🇸US美国(youtube阿伟科技)_1
       - 🇺🇸US美国(youtube阿伟科技)_2
       - 🇺🇸US美国(youtube阿伟科技)_3
@@ -126,91 +209,97 @@ proxy-groups:
       - 🇺🇸US美国(youtube阿伟科技)_16
       - 🇺🇸US美国(youtube阿伟科技)_17
       - 🇺🇸US美国(youtube阿伟科技)_18
-      - 🇺🇸US美国(youtube阿伟科技)_19
-      - 🇺🇸US美国(youtube阿伟科技)_20
-      - 🇺🇸US美国(youtube阿伟科技)_21
-      - 🇺🇸US美国(youtube阿伟科技)_22
-      - 🇹🇼TW台湾(youtube阿伟科技)_1
-      - 🇹🇼TW台湾(youtube阿伟科技)_2
-      - 🇹🇼TW台湾(youtube阿伟科技)_3
-      - 🇹🇼TW台湾(youtube阿伟科技)_4
-      - 🇹🇼TW台湾(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_1
-      - 🇸🇬SG新加坡(youtube阿伟科技)_2
-      - 🇸🇬SG新加坡(youtube阿伟科技)_3
-      - 🇸🇬SG新加坡(youtube阿伟科技)_4
-      - 🇸🇬SG新加坡(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_6
-      - 🇸🇬SG新加坡(youtube阿伟科技)_7
-      - 🇸🇬SG新加坡(youtube阿伟科技)_8
-      - 🇸🇬SG新加坡(youtube阿伟科技)_9
-      - 🇸🇬SG新加坡(youtube阿伟科技)_10
-      - 🇸🇬SG新加坡(youtube阿伟科技)_11
-      - 🇸🇬SG新加坡(youtube阿伟科技)_12
-      - 🇸🇬SG新加坡(youtube阿伟科技)_13
-      - 🇷🇺俄罗斯(youtube阿伟科技)
-      - 🇰🇷KR韩国(youtube阿伟科技)_1
-      - 🇰🇷KR韩国(youtube阿伟科技)_2
-      - 🇰🇷KR韩国(youtube阿伟科技)_3
-      - 🇰🇷KR韩国(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_1
-      - 🇯🇵JP日本(youtube阿伟科技)_2
-      - 🇯🇵JP日本(youtube阿伟科技)_3
-      - 🇯🇵JP日本(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_5
-      - 🇯🇵JP日本(youtube阿伟科技)_6
-      - 🇯🇵JP日本(youtube阿伟科技)_7
-      - 🇯🇵JP日本(youtube阿伟科技)_8
-      - 🇯🇵JP日本(youtube阿伟科技)_9
-      - 🇯🇵JP日本(youtube阿伟科技)_10
-      - 🇯🇵JP日本(youtube阿伟科技)_11
-      - 🇯🇵JP日本(youtube阿伟科技)_12
-      - 🇯🇵JP日本(youtube阿伟科技)_13
-      - 🇯🇵JP日本(youtube阿伟科技)_14
-      - 🇯🇵JP日本(youtube阿伟科技)_15
-      - 🇯🇵JP日本(youtube阿伟科技)_16
-      - 🇯🇵JP日本(youtube阿伟科技)_17
-      - 🇯🇵JP日本(youtube阿伟科技)_18
-      - 🇯🇵JP日本(youtube阿伟科技)_19
-      - 🇮🇳IN印度(youtube阿伟科技)
-      - 🇭🇰HK香港(youtube阿伟科技)_1
-      - 🇭🇰HK香港(youtube阿伟科技)_2
-      - 🇭🇰HK香港(youtube阿伟科技)_3
-      - 🇭🇰HK香港(youtube阿伟科技)_4
-      - 🇭🇰HK香港(youtube阿伟科技)_5
-      - 🇭🇰HK香港(youtube阿伟科技)_6
-      - 🇭🇰HK香港(youtube阿伟科技)_7
-      - 🇭🇰HK香港(youtube阿伟科技)_8
-      - 🇭🇰HK香港(youtube阿伟科技)_9
-      - 🇫🇷FR法国(youtube阿伟科技)_1
-      - 🇫🇷FR法国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_3
-      - 🇩🇪DE德国(youtube阿伟科技)_4
-      - 🇩🇪DE德国(youtube阿伟科技)_5
-      - 🇨🇦CA加拿大(youtube阿伟科技)_1
-      - 🇨🇦CA加拿大(youtube阿伟科技)_2
-      - 🇦🇺AU澳大利亚(youtube阿伟科技)
-      - lu(youtube阿伟科技)
-      - KH柬埔寨(youtube阿伟科技)
-      - GB英国(youtube阿伟科技)
-      - FI芬兰(youtube阿伟科技)_1
-      - FI芬兰(youtube阿伟科技)_2
-      - FI芬兰(youtube阿伟科技)_3
-      - 【A】台湾VIP3-中华电信
-      - 【C】美国VIP2-Netflix
-      - 【F】新加坡VIPB-DO
-      - 【J】香港VIPB-Netflix
-      - 【L】马来西亚VIP1-TMNet
-      - 【L】新加坡VIP4-Netflix
-      - 【N】日本VIP12-Nerocloud
+      - 🇻🇳VN越南(youtube阿伟科技)_1
+      - 🇻🇳VN越南(youtube阿伟科技)_2
+      - 土耳其(youtube阿伟科技)
+      - 以色列(youtube阿伟科技)
+      - 印度(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_17
+      - 🇭🇰HK香港(youtube阿伟科技)_18
+      - 🇭🇰HK香港(youtube阿伟科技)_19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - ARG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - KH柬埔寨(youtube阿伟科技)
+      - LU卢森堡(youtube阿伟科技)_1
+      - LU卢森堡(youtube阿伟科技)_2
+      - SA沙特阿拉伯(youtube阿伟科技)
+      - UAE迪拜流(youtube阿伟科技)
+      - UK英国(youtube阿伟科技)
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_1
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_2
+      - 🇨🇦CA加拿大(youtube阿伟科技)_1
+      - 🇨🇦CA加拿大(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_1
+      - 🇩🇪DE德国(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_3
+      - 🇩🇪DE德国(youtube阿伟科技)_4
+      - 🇫🇷FR法国(youtube阿伟科技)
+      - 🇬🇧GB英国(youtube阿伟科技)_1
+      - 🇬🇧GB英国(youtube阿伟科技)_2
+      - 🇬🇧GB英国(youtube阿伟科技)_3
+      - 🇬🇧GB英国(youtube阿伟科技)_4
+      - 🇬🇧英国(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_1
+      - 🇭🇰HK香港(youtube阿伟科技)_2
+      - 🇭🇰HK香港(youtube阿伟科技)_3
+      - 🇭🇰HK香港(youtube阿伟科技)_4
+      - 🇭🇰HK香港(youtube阿伟科技)_5
+      - 🇭🇰HK香港(youtube阿伟科技)_6
+      - 🇭🇰HK香港(youtube阿伟科技)_7
+      - 🇭🇰HK香港(youtube阿伟科技)_8
+      - 🇭🇰HK香港(youtube阿伟科技)_9
+      - 🇭🇰HK香港(youtube阿伟科技)_10
+      - 🇭🇰HK香港(youtube阿伟科技)_11
+      - 🇭🇰HK香港(youtube阿伟科技)_12
+      - 🇭🇰HK香港(youtube阿伟科技)_13
+      - 🇭🇰HK香港(youtube阿伟科技)_14
+      - 🇭🇰HK香港(youtube阿伟科技)_15
+      - 🇭🇰HK香港(youtube阿伟科技)_16
+      - 🇮🇳IN印度(youtube阿伟科技)
+      - 🇯🇵JP日本(youtube阿伟科技)_1
+      - 🇯🇵JP日本(youtube阿伟科技)_2
+      - 🇯🇵JP日本(youtube阿伟科技)_3
+      - 🇯🇵JP日本(youtube阿伟科技)_4
+      - 🇯🇵JP日本(youtube阿伟科技)_5
+      - 🇯🇵JP日本(youtube阿伟科技)_6
+      - 🇯🇵JP日本(youtube阿伟科技)_7
+      - 🇯🇵JP日本(youtube阿伟科技)_8
+      - 🇯🇵JP日本(youtube阿伟科技)_9
+      - 🇯🇵JP日本(youtube阿伟科技)_10
+      - 🇯🇵JP日本(youtube阿伟科技)_11
+      - 🇯🇵JP日本(youtube阿伟科技)_12
+      - 🇯🇵JP日本(youtube阿伟科技)_13
+      - 🇰🇷KR韩国(youtube阿伟科技)_1
+      - 🇰🇷KR韩国(youtube阿伟科技)_2
+      - 🇰🇷KR韩国(youtube阿伟科技)_3
+      - 🇷🇺RU俄罗斯(youtube阿伟科技)
+      - 🇸🇬SG新加坡(youtube阿伟科技)_1
+      - 🇸🇬SG新加坡(youtube阿伟科技)_2
+      - 🇸🇬SG新加坡(youtube阿伟科技)_3
+      - 🇸🇬SG新加坡(youtube阿伟科技)_4
+      - 🇸🇬SG新加坡(youtube阿伟科技)_5
+      - 🇸🇬SG新加坡(youtube阿伟科技)_6
+      - 🇸🇬SG新加坡(youtube阿伟科技)_7
+      - 🇸🇬SG新加坡(youtube阿伟科技)_8
+      - 🇸🇬SG新加坡(youtube阿伟科技)_9
+      - 🇸🇬SG新加坡(youtube阿伟科技)_10
+      - 🇸🇬SG新加坡(youtube阿伟科技)_11
+      - 🇸🇬SG新加坡(youtube阿伟科技)_12
+      - 🇸🇬SG新加坡(youtube阿伟科技)_13
+      - 🇸🇬SG新加坡(youtube阿伟科技)_14
+      - 🇸🇬SG新加坡(youtube阿伟科技)_15
+      - 🇹🇼TW台湾(youtube阿伟科技)_1
+      - 🇹🇼TW台湾(youtube阿伟科技)_2
+      - 🇹🇼TW台湾(youtube阿伟科技)_3
+      - 🇹🇼TW台湾(youtube阿伟科技)_4
+      - 🇹🇼TW台湾(youtube阿伟科技)_5
+      - 🇹🇼TW台湾(youtube阿伟科技)_6
       - 🇺🇸US美国(youtube阿伟科技)_1
       - 🇺🇸US美国(youtube阿伟科技)_2
       - 🇺🇸US美国(youtube阿伟科技)_3
@@ -229,91 +318,97 @@ proxy-groups:
       - 🇺🇸US美国(youtube阿伟科技)_16
       - 🇺🇸US美国(youtube阿伟科技)_17
       - 🇺🇸US美国(youtube阿伟科技)_18
-      - 🇺🇸US美国(youtube阿伟科技)_19
-      - 🇺🇸US美国(youtube阿伟科技)_20
-      - 🇺🇸US美国(youtube阿伟科技)_21
-      - 🇺🇸US美国(youtube阿伟科技)_22
-      - 🇹🇼TW台湾(youtube阿伟科技)_1
-      - 🇹🇼TW台湾(youtube阿伟科技)_2
-      - 🇹🇼TW台湾(youtube阿伟科技)_3
-      - 🇹🇼TW台湾(youtube阿伟科技)_4
-      - 🇹🇼TW台湾(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_1
-      - 🇸🇬SG新加坡(youtube阿伟科技)_2
-      - 🇸🇬SG新加坡(youtube阿伟科技)_3
-      - 🇸🇬SG新加坡(youtube阿伟科技)_4
-      - 🇸🇬SG新加坡(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_6
-      - 🇸🇬SG新加坡(youtube阿伟科技)_7
-      - 🇸🇬SG新加坡(youtube阿伟科技)_8
-      - 🇸🇬SG新加坡(youtube阿伟科技)_9
-      - 🇸🇬SG新加坡(youtube阿伟科技)_10
-      - 🇸🇬SG新加坡(youtube阿伟科技)_11
-      - 🇸🇬SG新加坡(youtube阿伟科技)_12
-      - 🇸🇬SG新加坡(youtube阿伟科技)_13
-      - 🇷🇺俄罗斯(youtube阿伟科技)
-      - 🇰🇷KR韩国(youtube阿伟科技)_1
-      - 🇰🇷KR韩国(youtube阿伟科技)_2
-      - 🇰🇷KR韩国(youtube阿伟科技)_3
-      - 🇰🇷KR韩国(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_1
-      - 🇯🇵JP日本(youtube阿伟科技)_2
-      - 🇯🇵JP日本(youtube阿伟科技)_3
-      - 🇯🇵JP日本(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_5
-      - 🇯🇵JP日本(youtube阿伟科技)_6
-      - 🇯🇵JP日本(youtube阿伟科技)_7
-      - 🇯🇵JP日本(youtube阿伟科技)_8
-      - 🇯🇵JP日本(youtube阿伟科技)_9
-      - 🇯🇵JP日本(youtube阿伟科技)_10
-      - 🇯🇵JP日本(youtube阿伟科技)_11
-      - 🇯🇵JP日本(youtube阿伟科技)_12
-      - 🇯🇵JP日本(youtube阿伟科技)_13
-      - 🇯🇵JP日本(youtube阿伟科技)_14
-      - 🇯🇵JP日本(youtube阿伟科技)_15
-      - 🇯🇵JP日本(youtube阿伟科技)_16
-      - 🇯🇵JP日本(youtube阿伟科技)_17
-      - 🇯🇵JP日本(youtube阿伟科技)_18
-      - 🇯🇵JP日本(youtube阿伟科技)_19
-      - 🇮🇳IN印度(youtube阿伟科技)
-      - 🇭🇰HK香港(youtube阿伟科技)_1
-      - 🇭🇰HK香港(youtube阿伟科技)_2
-      - 🇭🇰HK香港(youtube阿伟科技)_3
-      - 🇭🇰HK香港(youtube阿伟科技)_4
-      - 🇭🇰HK香港(youtube阿伟科技)_5
-      - 🇭🇰HK香港(youtube阿伟科技)_6
-      - 🇭🇰HK香港(youtube阿伟科技)_7
-      - 🇭🇰HK香港(youtube阿伟科技)_8
-      - 🇭🇰HK香港(youtube阿伟科技)_9
-      - 🇫🇷FR法国(youtube阿伟科技)_1
-      - 🇫🇷FR法国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_3
-      - 🇩🇪DE德国(youtube阿伟科技)_4
-      - 🇩🇪DE德国(youtube阿伟科技)_5
-      - 🇨🇦CA加拿大(youtube阿伟科技)_1
-      - 🇨🇦CA加拿大(youtube阿伟科技)_2
-      - 🇦🇺AU澳大利亚(youtube阿伟科技)
-      - lu(youtube阿伟科技)
-      - KH柬埔寨(youtube阿伟科技)
-      - GB英国(youtube阿伟科技)
-      - FI芬兰(youtube阿伟科技)_1
-      - FI芬兰(youtube阿伟科技)_2
-      - FI芬兰(youtube阿伟科技)_3
-      - 【A】台湾VIP3-中华电信
-      - 【C】美国VIP2-Netflix
-      - 【F】新加坡VIPB-DO
-      - 【J】香港VIPB-Netflix
-      - 【L】马来西亚VIP1-TMNet
-      - 【L】新加坡VIP4-Netflix
-      - 【N】日本VIP12-Nerocloud
+      - 🇻🇳VN越南(youtube阿伟科技)_1
+      - 🇻🇳VN越南(youtube阿伟科技)_2
+      - 土耳其(youtube阿伟科技)
+      - 以色列(youtube阿伟科技)
+      - 印度(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_17
+      - 🇭🇰HK香港(youtube阿伟科技)_18
+      - 🇭🇰HK香港(youtube阿伟科技)_19
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - ARG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - KH柬埔寨(youtube阿伟科技)
+      - LU卢森堡(youtube阿伟科技)_1
+      - LU卢森堡(youtube阿伟科技)_2
+      - SA沙特阿拉伯(youtube阿伟科技)
+      - UAE迪拜流(youtube阿伟科技)
+      - UK英国(youtube阿伟科技)
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_1
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_2
+      - 🇨🇦CA加拿大(youtube阿伟科技)_1
+      - 🇨🇦CA加拿大(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_1
+      - 🇩🇪DE德国(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_3
+      - 🇩🇪DE德国(youtube阿伟科技)_4
+      - 🇫🇷FR法国(youtube阿伟科技)
+      - 🇬🇧GB英国(youtube阿伟科技)_1
+      - 🇬🇧GB英国(youtube阿伟科技)_2
+      - 🇬🇧GB英国(youtube阿伟科技)_3
+      - 🇬🇧GB英国(youtube阿伟科技)_4
+      - 🇬🇧英国(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_1
+      - 🇭🇰HK香港(youtube阿伟科技)_2
+      - 🇭🇰HK香港(youtube阿伟科技)_3
+      - 🇭🇰HK香港(youtube阿伟科技)_4
+      - 🇭🇰HK香港(youtube阿伟科技)_5
+      - 🇭🇰HK香港(youtube阿伟科技)_6
+      - 🇭🇰HK香港(youtube阿伟科技)_7
+      - 🇭🇰HK香港(youtube阿伟科技)_8
+      - 🇭🇰HK香港(youtube阿伟科技)_9
+      - 🇭🇰HK香港(youtube阿伟科技)_10
+      - 🇭🇰HK香港(youtube阿伟科技)_11
+      - 🇭🇰HK香港(youtube阿伟科技)_12
+      - 🇭🇰HK香港(youtube阿伟科技)_13
+      - 🇭🇰HK香港(youtube阿伟科技)_14
+      - 🇭🇰HK香港(youtube阿伟科技)_15
+      - 🇭🇰HK香港(youtube阿伟科技)_16
+      - 🇮🇳IN印度(youtube阿伟科技)
+      - 🇯🇵JP日本(youtube阿伟科技)_1
+      - 🇯🇵JP日本(youtube阿伟科技)_2
+      - 🇯🇵JP日本(youtube阿伟科技)_3
+      - 🇯🇵JP日本(youtube阿伟科技)_4
+      - 🇯🇵JP日本(youtube阿伟科技)_5
+      - 🇯🇵JP日本(youtube阿伟科技)_6
+      - 🇯🇵JP日本(youtube阿伟科技)_7
+      - 🇯🇵JP日本(youtube阿伟科技)_8
+      - 🇯🇵JP日本(youtube阿伟科技)_9
+      - 🇯🇵JP日本(youtube阿伟科技)_10
+      - 🇯🇵JP日本(youtube阿伟科技)_11
+      - 🇯🇵JP日本(youtube阿伟科技)_12
+      - 🇯🇵JP日本(youtube阿伟科技)_13
+      - 🇰🇷KR韩国(youtube阿伟科技)_1
+      - 🇰🇷KR韩国(youtube阿伟科技)_2
+      - 🇰🇷KR韩国(youtube阿伟科技)_3
+      - 🇷🇺RU俄罗斯(youtube阿伟科技)
+      - 🇸🇬SG新加坡(youtube阿伟科技)_1
+      - 🇸🇬SG新加坡(youtube阿伟科技)_2
+      - 🇸🇬SG新加坡(youtube阿伟科技)_3
+      - 🇸🇬SG新加坡(youtube阿伟科技)_4
+      - 🇸🇬SG新加坡(youtube阿伟科技)_5
+      - 🇸🇬SG新加坡(youtube阿伟科技)_6
+      - 🇸🇬SG新加坡(youtube阿伟科技)_7
+      - 🇸🇬SG新加坡(youtube阿伟科技)_8
+      - 🇸🇬SG新加坡(youtube阿伟科技)_9
+      - 🇸🇬SG新加坡(youtube阿伟科技)_10
+      - 🇸🇬SG新加坡(youtube阿伟科技)_11
+      - 🇸🇬SG新加坡(youtube阿伟科技)_12
+      - 🇸🇬SG新加坡(youtube阿伟科技)_13
+      - 🇸🇬SG新加坡(youtube阿伟科技)_14
+      - 🇸🇬SG新加坡(youtube阿伟科技)_15
+      - 🇹🇼TW台湾(youtube阿伟科技)_1
+      - 🇹🇼TW台湾(youtube阿伟科技)_2
+      - 🇹🇼TW台湾(youtube阿伟科技)_3
+      - 🇹🇼TW台湾(youtube阿伟科技)_4
+      - 🇹🇼TW台湾(youtube阿伟科技)_5
+      - 🇹🇼TW台湾(youtube阿伟科技)_6
       - 🇺🇸US美国(youtube阿伟科技)_1
       - 🇺🇸US美国(youtube阿伟科技)_2
       - 🇺🇸US美国(youtube阿伟科技)_3
@@ -332,90 +427,96 @@ proxy-groups:
       - 🇺🇸US美国(youtube阿伟科技)_16
       - 🇺🇸US美国(youtube阿伟科技)_17
       - 🇺🇸US美国(youtube阿伟科技)_18
-      - 🇺🇸US美国(youtube阿伟科技)_19
-      - 🇺🇸US美国(youtube阿伟科技)_20
-      - 🇺🇸US美国(youtube阿伟科技)_21
-      - 🇺🇸US美国(youtube阿伟科技)_22
-      - 🇹🇼TW台湾(youtube阿伟科技)_1
-      - 🇹🇼TW台湾(youtube阿伟科技)_2
-      - 🇹🇼TW台湾(youtube阿伟科技)_3
-      - 🇹🇼TW台湾(youtube阿伟科技)_4
-      - 🇹🇼TW台湾(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_1
-      - 🇸🇬SG新加坡(youtube阿伟科技)_2
-      - 🇸🇬SG新加坡(youtube阿伟科技)_3
-      - 🇸🇬SG新加坡(youtube阿伟科技)_4
-      - 🇸🇬SG新加坡(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_6
-      - 🇸🇬SG新加坡(youtube阿伟科技)_7
-      - 🇸🇬SG新加坡(youtube阿伟科技)_8
-      - 🇸🇬SG新加坡(youtube阿伟科技)_9
-      - 🇸🇬SG新加坡(youtube阿伟科技)_10
-      - 🇸🇬SG新加坡(youtube阿伟科技)_11
-      - 🇸🇬SG新加坡(youtube阿伟科技)_12
-      - 🇸🇬SG新加坡(youtube阿伟科技)_13
-      - 🇷🇺俄罗斯(youtube阿伟科技)
-      - 🇰🇷KR韩国(youtube阿伟科技)_1
-      - 🇰🇷KR韩国(youtube阿伟科技)_2
-      - 🇰🇷KR韩国(youtube阿伟科技)_3
-      - 🇰🇷KR韩国(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_1
-      - 🇯🇵JP日本(youtube阿伟科技)_2
-      - 🇯🇵JP日本(youtube阿伟科技)_3
-      - 🇯🇵JP日本(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_5
-      - 🇯🇵JP日本(youtube阿伟科技)_6
-      - 🇯🇵JP日本(youtube阿伟科技)_7
-      - 🇯🇵JP日本(youtube阿伟科技)_8
-      - 🇯🇵JP日本(youtube阿伟科技)_9
-      - 🇯🇵JP日本(youtube阿伟科技)_10
-      - 🇯🇵JP日本(youtube阿伟科技)_11
-      - 🇯🇵JP日本(youtube阿伟科技)_12
-      - 🇯🇵JP日本(youtube阿伟科技)_13
-      - 🇯🇵JP日本(youtube阿伟科技)_14
-      - 🇯🇵JP日本(youtube阿伟科技)_15
-      - 🇯🇵JP日本(youtube阿伟科技)_16
-      - 🇯🇵JP日本(youtube阿伟科技)_17
-      - 🇯🇵JP日本(youtube阿伟科技)_18
-      - 🇯🇵JP日本(youtube阿伟科技)_19
-      - 🇮🇳IN印度(youtube阿伟科技)
-      - 🇭🇰HK香港(youtube阿伟科技)_1
-      - 🇭🇰HK香港(youtube阿伟科技)_2
-      - 🇭🇰HK香港(youtube阿伟科技)_3
-      - 🇭🇰HK香港(youtube阿伟科技)_4
-      - 🇭🇰HK香港(youtube阿伟科技)_5
-      - 🇭🇰HK香港(youtube阿伟科技)_6
-      - 🇭🇰HK香港(youtube阿伟科技)_7
-      - 🇭🇰HK香港(youtube阿伟科技)_8
-      - 🇭🇰HK香港(youtube阿伟科技)_9
-      - 🇫🇷FR法国(youtube阿伟科技)_1
-      - 🇫🇷FR法国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_3
-      - 🇩🇪DE德国(youtube阿伟科技)_4
-      - 🇩🇪DE德国(youtube阿伟科技)_5
-      - 🇨🇦CA加拿大(youtube阿伟科技)_1
-      - 🇨🇦CA加拿大(youtube阿伟科技)_2
-      - 🇦🇺AU澳大利亚(youtube阿伟科技)
-      - lu(youtube阿伟科技)
-      - KH柬埔寨(youtube阿伟科技)
-      - GB英国(youtube阿伟科技)
-      - FI芬兰(youtube阿伟科技)_1
-      - FI芬兰(youtube阿伟科技)_2
-      - FI芬兰(youtube阿伟科技)_3
-      - 【A】台湾VIP3-中华电信
-      - 【C】美国VIP2-Netflix
-      - 【F】新加坡VIPB-DO
-      - 【J】香港VIPB-Netflix
-      - 【L】马来西亚VIP1-TMNet
-      - 【L】新加坡VIP4-Netflix
-      - 【N】日本VIP12-Nerocloud
+      - 🇻🇳VN越南(youtube阿伟科技)_1
+      - 🇻🇳VN越南(youtube阿伟科技)_2
+      - 土耳其(youtube阿伟科技)
+      - 以色列(youtube阿伟科技)
+      - 印度(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_17
+      - 🇭🇰HK香港(youtube阿伟科技)_18
+      - 🇭🇰HK香港(youtube阿伟科技)_19
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - ARG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - KH柬埔寨(youtube阿伟科技)
+      - LU卢森堡(youtube阿伟科技)_1
+      - LU卢森堡(youtube阿伟科技)_2
+      - SA沙特阿拉伯(youtube阿伟科技)
+      - UAE迪拜流(youtube阿伟科技)
+      - UK英国(youtube阿伟科技)
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_1
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_2
+      - 🇨🇦CA加拿大(youtube阿伟科技)_1
+      - 🇨🇦CA加拿大(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_1
+      - 🇩🇪DE德国(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_3
+      - 🇩🇪DE德国(youtube阿伟科技)_4
+      - 🇫🇷FR法国(youtube阿伟科技)
+      - 🇬🇧GB英国(youtube阿伟科技)_1
+      - 🇬🇧GB英国(youtube阿伟科技)_2
+      - 🇬🇧GB英国(youtube阿伟科技)_3
+      - 🇬🇧GB英国(youtube阿伟科技)_4
+      - 🇬🇧英国(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_1
+      - 🇭🇰HK香港(youtube阿伟科技)_2
+      - 🇭🇰HK香港(youtube阿伟科技)_3
+      - 🇭🇰HK香港(youtube阿伟科技)_4
+      - 🇭🇰HK香港(youtube阿伟科技)_5
+      - 🇭🇰HK香港(youtube阿伟科技)_6
+      - 🇭🇰HK香港(youtube阿伟科技)_7
+      - 🇭🇰HK香港(youtube阿伟科技)_8
+      - 🇭🇰HK香港(youtube阿伟科技)_9
+      - 🇭🇰HK香港(youtube阿伟科技)_10
+      - 🇭🇰HK香港(youtube阿伟科技)_11
+      - 🇭🇰HK香港(youtube阿伟科技)_12
+      - 🇭🇰HK香港(youtube阿伟科技)_13
+      - 🇭🇰HK香港(youtube阿伟科技)_14
+      - 🇭🇰HK香港(youtube阿伟科技)_15
+      - 🇭🇰HK香港(youtube阿伟科技)_16
+      - 🇮🇳IN印度(youtube阿伟科技)
+      - 🇯🇵JP日本(youtube阿伟科技)_1
+      - 🇯🇵JP日本(youtube阿伟科技)_2
+      - 🇯🇵JP日本(youtube阿伟科技)_3
+      - 🇯🇵JP日本(youtube阿伟科技)_4
+      - 🇯🇵JP日本(youtube阿伟科技)_5
+      - 🇯🇵JP日本(youtube阿伟科技)_6
+      - 🇯🇵JP日本(youtube阿伟科技)_7
+      - 🇯🇵JP日本(youtube阿伟科技)_8
+      - 🇯🇵JP日本(youtube阿伟科技)_9
+      - 🇯🇵JP日本(youtube阿伟科技)_10
+      - 🇯🇵JP日本(youtube阿伟科技)_11
+      - 🇯🇵JP日本(youtube阿伟科技)_12
+      - 🇯🇵JP日本(youtube阿伟科技)_13
+      - 🇰🇷KR韩国(youtube阿伟科技)_1
+      - 🇰🇷KR韩国(youtube阿伟科技)_2
+      - 🇰🇷KR韩国(youtube阿伟科技)_3
+      - 🇷🇺RU俄罗斯(youtube阿伟科技)
+      - 🇸🇬SG新加坡(youtube阿伟科技)_1
+      - 🇸🇬SG新加坡(youtube阿伟科技)_2
+      - 🇸🇬SG新加坡(youtube阿伟科技)_3
+      - 🇸🇬SG新加坡(youtube阿伟科技)_4
+      - 🇸🇬SG新加坡(youtube阿伟科技)_5
+      - 🇸🇬SG新加坡(youtube阿伟科技)_6
+      - 🇸🇬SG新加坡(youtube阿伟科技)_7
+      - 🇸🇬SG新加坡(youtube阿伟科技)_8
+      - 🇸🇬SG新加坡(youtube阿伟科技)_9
+      - 🇸🇬SG新加坡(youtube阿伟科技)_10
+      - 🇸🇬SG新加坡(youtube阿伟科技)_11
+      - 🇸🇬SG新加坡(youtube阿伟科技)_12
+      - 🇸🇬SG新加坡(youtube阿伟科技)_13
+      - 🇸🇬SG新加坡(youtube阿伟科技)_14
+      - 🇸🇬SG新加坡(youtube阿伟科技)_15
+      - 🇹🇼TW台湾(youtube阿伟科技)_1
+      - 🇹🇼TW台湾(youtube阿伟科技)_2
+      - 🇹🇼TW台湾(youtube阿伟科技)_3
+      - 🇹🇼TW台湾(youtube阿伟科技)_4
+      - 🇹🇼TW台湾(youtube阿伟科技)_5
+      - 🇹🇼TW台湾(youtube阿伟科技)_6
       - 🇺🇸US美国(youtube阿伟科技)_1
       - 🇺🇸US美国(youtube阿伟科技)_2
       - 🇺🇸US美国(youtube阿伟科技)_3
@@ -434,90 +535,96 @@ proxy-groups:
       - 🇺🇸US美国(youtube阿伟科技)_16
       - 🇺🇸US美国(youtube阿伟科技)_17
       - 🇺🇸US美国(youtube阿伟科技)_18
-      - 🇺🇸US美国(youtube阿伟科技)_19
-      - 🇺🇸US美国(youtube阿伟科技)_20
-      - 🇺🇸US美国(youtube阿伟科技)_21
-      - 🇺🇸US美国(youtube阿伟科技)_22
-      - 🇹🇼TW台湾(youtube阿伟科技)_1
-      - 🇹🇼TW台湾(youtube阿伟科技)_2
-      - 🇹🇼TW台湾(youtube阿伟科技)_3
-      - 🇹🇼TW台湾(youtube阿伟科技)_4
-      - 🇹🇼TW台湾(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_1
-      - 🇸🇬SG新加坡(youtube阿伟科技)_2
-      - 🇸🇬SG新加坡(youtube阿伟科技)_3
-      - 🇸🇬SG新加坡(youtube阿伟科技)_4
-      - 🇸🇬SG新加坡(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_6
-      - 🇸🇬SG新加坡(youtube阿伟科技)_7
-      - 🇸🇬SG新加坡(youtube阿伟科技)_8
-      - 🇸🇬SG新加坡(youtube阿伟科技)_9
-      - 🇸🇬SG新加坡(youtube阿伟科技)_10
-      - 🇸🇬SG新加坡(youtube阿伟科技)_11
-      - 🇸🇬SG新加坡(youtube阿伟科技)_12
-      - 🇸🇬SG新加坡(youtube阿伟科技)_13
-      - 🇷🇺俄罗斯(youtube阿伟科技)
-      - 🇰🇷KR韩国(youtube阿伟科技)_1
-      - 🇰🇷KR韩国(youtube阿伟科技)_2
-      - 🇰🇷KR韩国(youtube阿伟科技)_3
-      - 🇰🇷KR韩国(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_1
-      - 🇯🇵JP日本(youtube阿伟科技)_2
-      - 🇯🇵JP日本(youtube阿伟科技)_3
-      - 🇯🇵JP日本(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_5
-      - 🇯🇵JP日本(youtube阿伟科技)_6
-      - 🇯🇵JP日本(youtube阿伟科技)_7
-      - 🇯🇵JP日本(youtube阿伟科技)_8
-      - 🇯🇵JP日本(youtube阿伟科技)_9
-      - 🇯🇵JP日本(youtube阿伟科技)_10
-      - 🇯🇵JP日本(youtube阿伟科技)_11
-      - 🇯🇵JP日本(youtube阿伟科技)_12
-      - 🇯🇵JP日本(youtube阿伟科技)_13
-      - 🇯🇵JP日本(youtube阿伟科技)_14
-      - 🇯🇵JP日本(youtube阿伟科技)_15
-      - 🇯🇵JP日本(youtube阿伟科技)_16
-      - 🇯🇵JP日本(youtube阿伟科技)_17
-      - 🇯🇵JP日本(youtube阿伟科技)_18
-      - 🇯🇵JP日本(youtube阿伟科技)_19
-      - 🇮🇳IN印度(youtube阿伟科技)
-      - 🇭🇰HK香港(youtube阿伟科技)_1
-      - 🇭🇰HK香港(youtube阿伟科技)_2
-      - 🇭🇰HK香港(youtube阿伟科技)_3
-      - 🇭🇰HK香港(youtube阿伟科技)_4
-      - 🇭🇰HK香港(youtube阿伟科技)_5
-      - 🇭🇰HK香港(youtube阿伟科技)_6
-      - 🇭🇰HK香港(youtube阿伟科技)_7
-      - 🇭🇰HK香港(youtube阿伟科技)_8
-      - 🇭🇰HK香港(youtube阿伟科技)_9
-      - 🇫🇷FR法国(youtube阿伟科技)_1
-      - 🇫🇷FR法国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_3
-      - 🇩🇪DE德国(youtube阿伟科技)_4
-      - 🇩🇪DE德国(youtube阿伟科技)_5
-      - 🇨🇦CA加拿大(youtube阿伟科技)_1
-      - 🇨🇦CA加拿大(youtube阿伟科技)_2
-      - 🇦🇺AU澳大利亚(youtube阿伟科技)
-      - lu(youtube阿伟科技)
-      - KH柬埔寨(youtube阿伟科技)
-      - GB英国(youtube阿伟科技)
-      - FI芬兰(youtube阿伟科技)_1
-      - FI芬兰(youtube阿伟科技)_2
-      - FI芬兰(youtube阿伟科技)_3
-      - 【A】台湾VIP3-中华电信
-      - 【C】美国VIP2-Netflix
-      - 【F】新加坡VIPB-DO
-      - 【J】香港VIPB-Netflix
-      - 【L】马来西亚VIP1-TMNet
-      - 【L】新加坡VIP4-Netflix
-      - 【N】日本VIP12-Nerocloud
+      - 🇻🇳VN越南(youtube阿伟科技)_1
+      - 🇻🇳VN越南(youtube阿伟科技)_2
+      - 土耳其(youtube阿伟科技)
+      - 以色列(youtube阿伟科技)
+      - 印度(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_17
+      - 🇭🇰HK香港(youtube阿伟科技)_18
+      - 🇭🇰HK香港(youtube阿伟科技)_19
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - ARG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - KH柬埔寨(youtube阿伟科技)
+      - LU卢森堡(youtube阿伟科技)_1
+      - LU卢森堡(youtube阿伟科技)_2
+      - SA沙特阿拉伯(youtube阿伟科技)
+      - UAE迪拜流(youtube阿伟科技)
+      - UK英国(youtube阿伟科技)
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_1
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_2
+      - 🇨🇦CA加拿大(youtube阿伟科技)_1
+      - 🇨🇦CA加拿大(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_1
+      - 🇩🇪DE德国(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_3
+      - 🇩🇪DE德国(youtube阿伟科技)_4
+      - 🇫🇷FR法国(youtube阿伟科技)
+      - 🇬🇧GB英国(youtube阿伟科技)_1
+      - 🇬🇧GB英国(youtube阿伟科技)_2
+      - 🇬🇧GB英国(youtube阿伟科技)_3
+      - 🇬🇧GB英国(youtube阿伟科技)_4
+      - 🇬🇧英国(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_1
+      - 🇭🇰HK香港(youtube阿伟科技)_2
+      - 🇭🇰HK香港(youtube阿伟科技)_3
+      - 🇭🇰HK香港(youtube阿伟科技)_4
+      - 🇭🇰HK香港(youtube阿伟科技)_5
+      - 🇭🇰HK香港(youtube阿伟科技)_6
+      - 🇭🇰HK香港(youtube阿伟科技)_7
+      - 🇭🇰HK香港(youtube阿伟科技)_8
+      - 🇭🇰HK香港(youtube阿伟科技)_9
+      - 🇭🇰HK香港(youtube阿伟科技)_10
+      - 🇭🇰HK香港(youtube阿伟科技)_11
+      - 🇭🇰HK香港(youtube阿伟科技)_12
+      - 🇭🇰HK香港(youtube阿伟科技)_13
+      - 🇭🇰HK香港(youtube阿伟科技)_14
+      - 🇭🇰HK香港(youtube阿伟科技)_15
+      - 🇭🇰HK香港(youtube阿伟科技)_16
+      - 🇮🇳IN印度(youtube阿伟科技)
+      - 🇯🇵JP日本(youtube阿伟科技)_1
+      - 🇯🇵JP日本(youtube阿伟科技)_2
+      - 🇯🇵JP日本(youtube阿伟科技)_3
+      - 🇯🇵JP日本(youtube阿伟科技)_4
+      - 🇯🇵JP日本(youtube阿伟科技)_5
+      - 🇯🇵JP日本(youtube阿伟科技)_6
+      - 🇯🇵JP日本(youtube阿伟科技)_7
+      - 🇯🇵JP日本(youtube阿伟科技)_8
+      - 🇯🇵JP日本(youtube阿伟科技)_9
+      - 🇯🇵JP日本(youtube阿伟科技)_10
+      - 🇯🇵JP日本(youtube阿伟科技)_11
+      - 🇯🇵JP日本(youtube阿伟科技)_12
+      - 🇯🇵JP日本(youtube阿伟科技)_13
+      - 🇰🇷KR韩国(youtube阿伟科技)_1
+      - 🇰🇷KR韩国(youtube阿伟科技)_2
+      - 🇰🇷KR韩国(youtube阿伟科技)_3
+      - 🇷🇺RU俄罗斯(youtube阿伟科技)
+      - 🇸🇬SG新加坡(youtube阿伟科技)_1
+      - 🇸🇬SG新加坡(youtube阿伟科技)_2
+      - 🇸🇬SG新加坡(youtube阿伟科技)_3
+      - 🇸🇬SG新加坡(youtube阿伟科技)_4
+      - 🇸🇬SG新加坡(youtube阿伟科技)_5
+      - 🇸🇬SG新加坡(youtube阿伟科技)_6
+      - 🇸🇬SG新加坡(youtube阿伟科技)_7
+      - 🇸🇬SG新加坡(youtube阿伟科技)_8
+      - 🇸🇬SG新加坡(youtube阿伟科技)_9
+      - 🇸🇬SG新加坡(youtube阿伟科技)_10
+      - 🇸🇬SG新加坡(youtube阿伟科技)_11
+      - 🇸🇬SG新加坡(youtube阿伟科技)_12
+      - 🇸🇬SG新加坡(youtube阿伟科技)_13
+      - 🇸🇬SG新加坡(youtube阿伟科技)_14
+      - 🇸🇬SG新加坡(youtube阿伟科技)_15
+      - 🇹🇼TW台湾(youtube阿伟科技)_1
+      - 🇹🇼TW台湾(youtube阿伟科技)_2
+      - 🇹🇼TW台湾(youtube阿伟科技)_3
+      - 🇹🇼TW台湾(youtube阿伟科技)_4
+      - 🇹🇼TW台湾(youtube阿伟科技)_5
+      - 🇹🇼TW台湾(youtube阿伟科技)_6
       - 🇺🇸US美国(youtube阿伟科技)_1
       - 🇺🇸US美国(youtube阿伟科技)_2
       - 🇺🇸US美国(youtube阿伟科技)_3
@@ -536,90 +643,96 @@ proxy-groups:
       - 🇺🇸US美国(youtube阿伟科技)_16
       - 🇺🇸US美国(youtube阿伟科技)_17
       - 🇺🇸US美国(youtube阿伟科技)_18
-      - 🇺🇸US美国(youtube阿伟科技)_19
-      - 🇺🇸US美国(youtube阿伟科技)_20
-      - 🇺🇸US美国(youtube阿伟科技)_21
-      - 🇺🇸US美国(youtube阿伟科技)_22
-      - 🇹🇼TW台湾(youtube阿伟科技)_1
-      - 🇹🇼TW台湾(youtube阿伟科技)_2
-      - 🇹🇼TW台湾(youtube阿伟科技)_3
-      - 🇹🇼TW台湾(youtube阿伟科技)_4
-      - 🇹🇼TW台湾(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_1
-      - 🇸🇬SG新加坡(youtube阿伟科技)_2
-      - 🇸🇬SG新加坡(youtube阿伟科技)_3
-      - 🇸🇬SG新加坡(youtube阿伟科技)_4
-      - 🇸🇬SG新加坡(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_6
-      - 🇸🇬SG新加坡(youtube阿伟科技)_7
-      - 🇸🇬SG新加坡(youtube阿伟科技)_8
-      - 🇸🇬SG新加坡(youtube阿伟科技)_9
-      - 🇸🇬SG新加坡(youtube阿伟科技)_10
-      - 🇸🇬SG新加坡(youtube阿伟科技)_11
-      - 🇸🇬SG新加坡(youtube阿伟科技)_12
-      - 🇸🇬SG新加坡(youtube阿伟科技)_13
-      - 🇷🇺俄罗斯(youtube阿伟科技)
-      - 🇰🇷KR韩国(youtube阿伟科技)_1
-      - 🇰🇷KR韩国(youtube阿伟科技)_2
-      - 🇰🇷KR韩国(youtube阿伟科技)_3
-      - 🇰🇷KR韩国(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_1
-      - 🇯🇵JP日本(youtube阿伟科技)_2
-      - 🇯🇵JP日本(youtube阿伟科技)_3
-      - 🇯🇵JP日本(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_5
-      - 🇯🇵JP日本(youtube阿伟科技)_6
-      - 🇯🇵JP日本(youtube阿伟科技)_7
-      - 🇯🇵JP日本(youtube阿伟科技)_8
-      - 🇯🇵JP日本(youtube阿伟科技)_9
-      - 🇯🇵JP日本(youtube阿伟科技)_10
-      - 🇯🇵JP日本(youtube阿伟科技)_11
-      - 🇯🇵JP日本(youtube阿伟科技)_12
-      - 🇯🇵JP日本(youtube阿伟科技)_13
-      - 🇯🇵JP日本(youtube阿伟科技)_14
-      - 🇯🇵JP日本(youtube阿伟科技)_15
-      - 🇯🇵JP日本(youtube阿伟科技)_16
-      - 🇯🇵JP日本(youtube阿伟科技)_17
-      - 🇯🇵JP日本(youtube阿伟科技)_18
-      - 🇯🇵JP日本(youtube阿伟科技)_19
-      - 🇮🇳IN印度(youtube阿伟科技)
-      - 🇭🇰HK香港(youtube阿伟科技)_1
-      - 🇭🇰HK香港(youtube阿伟科技)_2
-      - 🇭🇰HK香港(youtube阿伟科技)_3
-      - 🇭🇰HK香港(youtube阿伟科技)_4
-      - 🇭🇰HK香港(youtube阿伟科技)_5
-      - 🇭🇰HK香港(youtube阿伟科技)_6
-      - 🇭🇰HK香港(youtube阿伟科技)_7
-      - 🇭🇰HK香港(youtube阿伟科技)_8
-      - 🇭🇰HK香港(youtube阿伟科技)_9
-      - 🇫🇷FR法国(youtube阿伟科技)_1
-      - 🇫🇷FR法国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_3
-      - 🇩🇪DE德国(youtube阿伟科技)_4
-      - 🇩🇪DE德国(youtube阿伟科技)_5
-      - 🇨🇦CA加拿大(youtube阿伟科技)_1
-      - 🇨🇦CA加拿大(youtube阿伟科技)_2
-      - 🇦🇺AU澳大利亚(youtube阿伟科技)
-      - lu(youtube阿伟科技)
-      - KH柬埔寨(youtube阿伟科技)
-      - GB英国(youtube阿伟科技)
-      - FI芬兰(youtube阿伟科技)_1
-      - FI芬兰(youtube阿伟科技)_2
-      - FI芬兰(youtube阿伟科技)_3
-      - 【A】台湾VIP3-中华电信
-      - 【C】美国VIP2-Netflix
-      - 【F】新加坡VIPB-DO
-      - 【J】香港VIPB-Netflix
-      - 【L】马来西亚VIP1-TMNet
-      - 【L】新加坡VIP4-Netflix
-      - 【N】日本VIP12-Nerocloud
+      - 🇻🇳VN越南(youtube阿伟科技)_1
+      - 🇻🇳VN越南(youtube阿伟科技)_2
+      - 土耳其(youtube阿伟科技)
+      - 以色列(youtube阿伟科技)
+      - 印度(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_17
+      - 🇭🇰HK香港(youtube阿伟科技)_18
+      - 🇭🇰HK香港(youtube阿伟科技)_19
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - ARG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - KH柬埔寨(youtube阿伟科技)
+      - LU卢森堡(youtube阿伟科技)_1
+      - LU卢森堡(youtube阿伟科技)_2
+      - SA沙特阿拉伯(youtube阿伟科技)
+      - UAE迪拜流(youtube阿伟科技)
+      - UK英国(youtube阿伟科技)
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_1
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_2
+      - 🇨🇦CA加拿大(youtube阿伟科技)_1
+      - 🇨🇦CA加拿大(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_1
+      - 🇩🇪DE德国(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_3
+      - 🇩🇪DE德国(youtube阿伟科技)_4
+      - 🇫🇷FR法国(youtube阿伟科技)
+      - 🇬🇧GB英国(youtube阿伟科技)_1
+      - 🇬🇧GB英国(youtube阿伟科技)_2
+      - 🇬🇧GB英国(youtube阿伟科技)_3
+      - 🇬🇧GB英国(youtube阿伟科技)_4
+      - 🇬🇧英国(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_1
+      - 🇭🇰HK香港(youtube阿伟科技)_2
+      - 🇭🇰HK香港(youtube阿伟科技)_3
+      - 🇭🇰HK香港(youtube阿伟科技)_4
+      - 🇭🇰HK香港(youtube阿伟科技)_5
+      - 🇭🇰HK香港(youtube阿伟科技)_6
+      - 🇭🇰HK香港(youtube阿伟科技)_7
+      - 🇭🇰HK香港(youtube阿伟科技)_8
+      - 🇭🇰HK香港(youtube阿伟科技)_9
+      - 🇭🇰HK香港(youtube阿伟科技)_10
+      - 🇭🇰HK香港(youtube阿伟科技)_11
+      - 🇭🇰HK香港(youtube阿伟科技)_12
+      - 🇭🇰HK香港(youtube阿伟科技)_13
+      - 🇭🇰HK香港(youtube阿伟科技)_14
+      - 🇭🇰HK香港(youtube阿伟科技)_15
+      - 🇭🇰HK香港(youtube阿伟科技)_16
+      - 🇮🇳IN印度(youtube阿伟科技)
+      - 🇯🇵JP日本(youtube阿伟科技)_1
+      - 🇯🇵JP日本(youtube阿伟科技)_2
+      - 🇯🇵JP日本(youtube阿伟科技)_3
+      - 🇯🇵JP日本(youtube阿伟科技)_4
+      - 🇯🇵JP日本(youtube阿伟科技)_5
+      - 🇯🇵JP日本(youtube阿伟科技)_6
+      - 🇯🇵JP日本(youtube阿伟科技)_7
+      - 🇯🇵JP日本(youtube阿伟科技)_8
+      - 🇯🇵JP日本(youtube阿伟科技)_9
+      - 🇯🇵JP日本(youtube阿伟科技)_10
+      - 🇯🇵JP日本(youtube阿伟科技)_11
+      - 🇯🇵JP日本(youtube阿伟科技)_12
+      - 🇯🇵JP日本(youtube阿伟科技)_13
+      - 🇰🇷KR韩国(youtube阿伟科技)_1
+      - 🇰🇷KR韩国(youtube阿伟科技)_2
+      - 🇰🇷KR韩国(youtube阿伟科技)_3
+      - 🇷🇺RU俄罗斯(youtube阿伟科技)
+      - 🇸🇬SG新加坡(youtube阿伟科技)_1
+      - 🇸🇬SG新加坡(youtube阿伟科技)_2
+      - 🇸🇬SG新加坡(youtube阿伟科技)_3
+      - 🇸🇬SG新加坡(youtube阿伟科技)_4
+      - 🇸🇬SG新加坡(youtube阿伟科技)_5
+      - 🇸🇬SG新加坡(youtube阿伟科技)_6
+      - 🇸🇬SG新加坡(youtube阿伟科技)_7
+      - 🇸🇬SG新加坡(youtube阿伟科技)_8
+      - 🇸🇬SG新加坡(youtube阿伟科技)_9
+      - 🇸🇬SG新加坡(youtube阿伟科技)_10
+      - 🇸🇬SG新加坡(youtube阿伟科技)_11
+      - 🇸🇬SG新加坡(youtube阿伟科技)_12
+      - 🇸🇬SG新加坡(youtube阿伟科技)_13
+      - 🇸🇬SG新加坡(youtube阿伟科技)_14
+      - 🇸🇬SG新加坡(youtube阿伟科技)_15
+      - 🇹🇼TW台湾(youtube阿伟科技)_1
+      - 🇹🇼TW台湾(youtube阿伟科技)_2
+      - 🇹🇼TW台湾(youtube阿伟科技)_3
+      - 🇹🇼TW台湾(youtube阿伟科技)_4
+      - 🇹🇼TW台湾(youtube阿伟科技)_5
+      - 🇹🇼TW台湾(youtube阿伟科技)_6
       - 🇺🇸US美国(youtube阿伟科技)_1
       - 🇺🇸US美国(youtube阿伟科技)_2
       - 🇺🇸US美国(youtube阿伟科技)_3
@@ -638,85 +751,14 @@ proxy-groups:
       - 🇺🇸US美国(youtube阿伟科技)_16
       - 🇺🇸US美国(youtube阿伟科技)_17
       - 🇺🇸US美国(youtube阿伟科技)_18
-      - 🇺🇸US美国(youtube阿伟科技)_19
-      - 🇺🇸US美国(youtube阿伟科技)_20
-      - 🇺🇸US美国(youtube阿伟科技)_21
-      - 🇺🇸US美国(youtube阿伟科技)_22
-      - 🇹🇼TW台湾(youtube阿伟科技)_1
-      - 🇹🇼TW台湾(youtube阿伟科技)_2
-      - 🇹🇼TW台湾(youtube阿伟科技)_3
-      - 🇹🇼TW台湾(youtube阿伟科技)_4
-      - 🇹🇼TW台湾(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_1
-      - 🇸🇬SG新加坡(youtube阿伟科技)_2
-      - 🇸🇬SG新加坡(youtube阿伟科技)_3
-      - 🇸🇬SG新加坡(youtube阿伟科技)_4
-      - 🇸🇬SG新加坡(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_6
-      - 🇸🇬SG新加坡(youtube阿伟科技)_7
-      - 🇸🇬SG新加坡(youtube阿伟科技)_8
-      - 🇸🇬SG新加坡(youtube阿伟科技)_9
-      - 🇸🇬SG新加坡(youtube阿伟科技)_10
-      - 🇸🇬SG新加坡(youtube阿伟科技)_11
-      - 🇸🇬SG新加坡(youtube阿伟科技)_12
-      - 🇸🇬SG新加坡(youtube阿伟科技)_13
-      - 🇷🇺俄罗斯(youtube阿伟科技)
-      - 🇰🇷KR韩国(youtube阿伟科技)_1
-      - 🇰🇷KR韩国(youtube阿伟科技)_2
-      - 🇰🇷KR韩国(youtube阿伟科技)_3
-      - 🇰🇷KR韩国(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_1
-      - 🇯🇵JP日本(youtube阿伟科技)_2
-      - 🇯🇵JP日本(youtube阿伟科技)_3
-      - 🇯🇵JP日本(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_5
-      - 🇯🇵JP日本(youtube阿伟科技)_6
-      - 🇯🇵JP日本(youtube阿伟科技)_7
-      - 🇯🇵JP日本(youtube阿伟科技)_8
-      - 🇯🇵JP日本(youtube阿伟科技)_9
-      - 🇯🇵JP日本(youtube阿伟科技)_10
-      - 🇯🇵JP日本(youtube阿伟科技)_11
-      - 🇯🇵JP日本(youtube阿伟科技)_12
-      - 🇯🇵JP日本(youtube阿伟科技)_13
-      - 🇯🇵JP日本(youtube阿伟科技)_14
-      - 🇯🇵JP日本(youtube阿伟科技)_15
-      - 🇯🇵JP日本(youtube阿伟科技)_16
-      - 🇯🇵JP日本(youtube阿伟科技)_17
-      - 🇯🇵JP日本(youtube阿伟科技)_18
-      - 🇯🇵JP日本(youtube阿伟科技)_19
-      - 🇮🇳IN印度(youtube阿伟科技)
-      - 🇭🇰HK香港(youtube阿伟科技)_1
-      - 🇭🇰HK香港(youtube阿伟科技)_2
-      - 🇭🇰HK香港(youtube阿伟科技)_3
-      - 🇭🇰HK香港(youtube阿伟科技)_4
-      - 🇭🇰HK香港(youtube阿伟科技)_5
-      - 🇭🇰HK香港(youtube阿伟科技)_6
-      - 🇭🇰HK香港(youtube阿伟科技)_7
-      - 🇭🇰HK香港(youtube阿伟科技)_8
-      - 🇭🇰HK香港(youtube阿伟科技)_9
-      - 🇫🇷FR法国(youtube阿伟科技)_1
-      - 🇫🇷FR法国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_3
-      - 🇩🇪DE德国(youtube阿伟科技)_4
-      - 🇩🇪DE德国(youtube阿伟科技)_5
-      - 🇨🇦CA加拿大(youtube阿伟科技)_1
-      - 🇨🇦CA加拿大(youtube阿伟科技)_2
-      - 🇦🇺AU澳大利亚(youtube阿伟科技)
-      - lu(youtube阿伟科技)
-      - KH柬埔寨(youtube阿伟科技)
-      - GB英国(youtube阿伟科技)
-      - FI芬兰(youtube阿伟科技)_1
-      - FI芬兰(youtube阿伟科技)_2
-      - FI芬兰(youtube阿伟科技)_3
-      - 【A】台湾VIP3-中华电信
-      - 【C】美国VIP2-Netflix
-      - 【F】新加坡VIPB-DO
-      - 【J】香港VIPB-Netflix
-      - 【L】马来西亚VIP1-TMNet
-      - 【L】新加坡VIP4-Netflix
-      - 【N】日本VIP12-Nerocloud
+      - 🇻🇳VN越南(youtube阿伟科技)_1
+      - 🇻🇳VN越南(youtube阿伟科技)_2
+      - 土耳其(youtube阿伟科技)
+      - 以色列(youtube阿伟科技)
+      - 印度(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_17
+      - 🇭🇰HK香港(youtube阿伟科技)_18
+      - 🇭🇰HK香港(youtube阿伟科技)_19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -739,6 +781,83 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - ARG阿根廷(youtube阿伟科技)
+      - FR法国(youtube阿伟科技)
+      - KH柬埔寨(youtube阿伟科技)
+      - LU卢森堡(youtube阿伟科技)_1
+      - LU卢森堡(youtube阿伟科技)_2
+      - SA沙特阿拉伯(youtube阿伟科技)
+      - UAE迪拜流(youtube阿伟科技)
+      - UK英国(youtube阿伟科技)
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_1
+      - 🇦🇺AU澳大利亚(youtube阿伟科技)_2
+      - 🇨🇦CA加拿大(youtube阿伟科技)_1
+      - 🇨🇦CA加拿大(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_1
+      - 🇩🇪DE德国(youtube阿伟科技)_2
+      - 🇩🇪DE德国(youtube阿伟科技)_3
+      - 🇩🇪DE德国(youtube阿伟科技)_4
+      - 🇫🇷FR法国(youtube阿伟科技)
+      - 🇬🇧GB英国(youtube阿伟科技)_1
+      - 🇬🇧GB英国(youtube阿伟科技)_2
+      - 🇬🇧GB英国(youtube阿伟科技)_3
+      - 🇬🇧GB英国(youtube阿伟科技)_4
+      - 🇬🇧英国(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_1
+      - 🇭🇰HK香港(youtube阿伟科技)_2
+      - 🇭🇰HK香港(youtube阿伟科技)_3
+      - 🇭🇰HK香港(youtube阿伟科技)_4
+      - 🇭🇰HK香港(youtube阿伟科技)_5
+      - 🇭🇰HK香港(youtube阿伟科技)_6
+      - 🇭🇰HK香港(youtube阿伟科技)_7
+      - 🇭🇰HK香港(youtube阿伟科技)_8
+      - 🇭🇰HK香港(youtube阿伟科技)_9
+      - 🇭🇰HK香港(youtube阿伟科技)_10
+      - 🇭🇰HK香港(youtube阿伟科技)_11
+      - 🇭🇰HK香港(youtube阿伟科技)_12
+      - 🇭🇰HK香港(youtube阿伟科技)_13
+      - 🇭🇰HK香港(youtube阿伟科技)_14
+      - 🇭🇰HK香港(youtube阿伟科技)_15
+      - 🇭🇰HK香港(youtube阿伟科技)_16
+      - 🇮🇳IN印度(youtube阿伟科技)
+      - 🇯🇵JP日本(youtube阿伟科技)_1
+      - 🇯🇵JP日本(youtube阿伟科技)_2
+      - 🇯🇵JP日本(youtube阿伟科技)_3
+      - 🇯🇵JP日本(youtube阿伟科技)_4
+      - 🇯🇵JP日本(youtube阿伟科技)_5
+      - 🇯🇵JP日本(youtube阿伟科技)_6
+      - 🇯🇵JP日本(youtube阿伟科技)_7
+      - 🇯🇵JP日本(youtube阿伟科技)_8
+      - 🇯🇵JP日本(youtube阿伟科技)_9
+      - 🇯🇵JP日本(youtube阿伟科技)_10
+      - 🇯🇵JP日本(youtube阿伟科技)_11
+      - 🇯🇵JP日本(youtube阿伟科技)_12
+      - 🇯🇵JP日本(youtube阿伟科技)_13
+      - 🇰🇷KR韩国(youtube阿伟科技)_1
+      - 🇰🇷KR韩国(youtube阿伟科技)_2
+      - 🇰🇷KR韩国(youtube阿伟科技)_3
+      - 🇷🇺RU俄罗斯(youtube阿伟科技)
+      - 🇸🇬SG新加坡(youtube阿伟科技)_1
+      - 🇸🇬SG新加坡(youtube阿伟科技)_2
+      - 🇸🇬SG新加坡(youtube阿伟科技)_3
+      - 🇸🇬SG新加坡(youtube阿伟科技)_4
+      - 🇸🇬SG新加坡(youtube阿伟科技)_5
+      - 🇸🇬SG新加坡(youtube阿伟科技)_6
+      - 🇸🇬SG新加坡(youtube阿伟科技)_7
+      - 🇸🇬SG新加坡(youtube阿伟科技)_8
+      - 🇸🇬SG新加坡(youtube阿伟科技)_9
+      - 🇸🇬SG新加坡(youtube阿伟科技)_10
+      - 🇸🇬SG新加坡(youtube阿伟科技)_11
+      - 🇸🇬SG新加坡(youtube阿伟科技)_12
+      - 🇸🇬SG新加坡(youtube阿伟科技)_13
+      - 🇸🇬SG新加坡(youtube阿伟科技)_14
+      - 🇸🇬SG新加坡(youtube阿伟科技)_15
+      - 🇹🇼TW台湾(youtube阿伟科技)_1
+      - 🇹🇼TW台湾(youtube阿伟科技)_2
+      - 🇹🇼TW台湾(youtube阿伟科技)_3
+      - 🇹🇼TW台湾(youtube阿伟科技)_4
+      - 🇹🇼TW台湾(youtube阿伟科技)_5
+      - 🇹🇼TW台湾(youtube阿伟科技)_6
       - 🇺🇸US美国(youtube阿伟科技)_1
       - 🇺🇸US美国(youtube阿伟科技)_2
       - 🇺🇸US美国(youtube阿伟科技)_3
@@ -757,85 +876,14 @@ proxy-groups:
       - 🇺🇸US美国(youtube阿伟科技)_16
       - 🇺🇸US美国(youtube阿伟科技)_17
       - 🇺🇸US美国(youtube阿伟科技)_18
-      - 🇺🇸US美国(youtube阿伟科技)_19
-      - 🇺🇸US美国(youtube阿伟科技)_20
-      - 🇺🇸US美国(youtube阿伟科技)_21
-      - 🇺🇸US美国(youtube阿伟科技)_22
-      - 🇹🇼TW台湾(youtube阿伟科技)_1
-      - 🇹🇼TW台湾(youtube阿伟科技)_2
-      - 🇹🇼TW台湾(youtube阿伟科技)_3
-      - 🇹🇼TW台湾(youtube阿伟科技)_4
-      - 🇹🇼TW台湾(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_1
-      - 🇸🇬SG新加坡(youtube阿伟科技)_2
-      - 🇸🇬SG新加坡(youtube阿伟科技)_3
-      - 🇸🇬SG新加坡(youtube阿伟科技)_4
-      - 🇸🇬SG新加坡(youtube阿伟科技)_5
-      - 🇸🇬SG新加坡(youtube阿伟科技)_6
-      - 🇸🇬SG新加坡(youtube阿伟科技)_7
-      - 🇸🇬SG新加坡(youtube阿伟科技)_8
-      - 🇸🇬SG新加坡(youtube阿伟科技)_9
-      - 🇸🇬SG新加坡(youtube阿伟科技)_10
-      - 🇸🇬SG新加坡(youtube阿伟科技)_11
-      - 🇸🇬SG新加坡(youtube阿伟科技)_12
-      - 🇸🇬SG新加坡(youtube阿伟科技)_13
-      - 🇷🇺俄罗斯(youtube阿伟科技)
-      - 🇰🇷KR韩国(youtube阿伟科技)_1
-      - 🇰🇷KR韩国(youtube阿伟科技)_2
-      - 🇰🇷KR韩国(youtube阿伟科技)_3
-      - 🇰🇷KR韩国(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_1
-      - 🇯🇵JP日本(youtube阿伟科技)_2
-      - 🇯🇵JP日本(youtube阿伟科技)_3
-      - 🇯🇵JP日本(youtube阿伟科技)_4
-      - 🇯🇵JP日本(youtube阿伟科技)_5
-      - 🇯🇵JP日本(youtube阿伟科技)_6
-      - 🇯🇵JP日本(youtube阿伟科技)_7
-      - 🇯🇵JP日本(youtube阿伟科技)_8
-      - 🇯🇵JP日本(youtube阿伟科技)_9
-      - 🇯🇵JP日本(youtube阿伟科技)_10
-      - 🇯🇵JP日本(youtube阿伟科技)_11
-      - 🇯🇵JP日本(youtube阿伟科技)_12
-      - 🇯🇵JP日本(youtube阿伟科技)_13
-      - 🇯🇵JP日本(youtube阿伟科技)_14
-      - 🇯🇵JP日本(youtube阿伟科技)_15
-      - 🇯🇵JP日本(youtube阿伟科技)_16
-      - 🇯🇵JP日本(youtube阿伟科技)_17
-      - 🇯🇵JP日本(youtube阿伟科技)_18
-      - 🇯🇵JP日本(youtube阿伟科技)_19
-      - 🇮🇳IN印度(youtube阿伟科技)
-      - 🇭🇰HK香港(youtube阿伟科技)_1
-      - 🇭🇰HK香港(youtube阿伟科技)_2
-      - 🇭🇰HK香港(youtube阿伟科技)_3
-      - 🇭🇰HK香港(youtube阿伟科技)_4
-      - 🇭🇰HK香港(youtube阿伟科技)_5
-      - 🇭🇰HK香港(youtube阿伟科技)_6
-      - 🇭🇰HK香港(youtube阿伟科技)_7
-      - 🇭🇰HK香港(youtube阿伟科技)_8
-      - 🇭🇰HK香港(youtube阿伟科技)_9
-      - 🇫🇷FR法国(youtube阿伟科技)_1
-      - 🇫🇷FR法国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇩🇪DE德国(youtube阿伟科技)_3
-      - 🇩🇪DE德国(youtube阿伟科技)_4
-      - 🇩🇪DE德国(youtube阿伟科技)_5
-      - 🇨🇦CA加拿大(youtube阿伟科技)_1
-      - 🇨🇦CA加拿大(youtube阿伟科技)_2
-      - 🇦🇺AU澳大利亚(youtube阿伟科技)
-      - lu(youtube阿伟科技)
-      - KH柬埔寨(youtube阿伟科技)
-      - GB英国(youtube阿伟科技)
-      - FI芬兰(youtube阿伟科技)_1
-      - FI芬兰(youtube阿伟科技)_2
-      - FI芬兰(youtube阿伟科技)_3
-      - 【A】台湾VIP3-中华电信
-      - 【C】美国VIP2-Netflix
-      - 【F】新加坡VIPB-DO
-      - 【J】香港VIPB-Netflix
-      - 【L】马来西亚VIP1-TMNet
-      - 【L】新加坡VIP4-Netflix
-      - 【N】日本VIP12-Nerocloud
+      - 🇻🇳VN越南(youtube阿伟科技)_1
+      - 🇻🇳VN越南(youtube阿伟科技)_2
+      - 土耳其(youtube阿伟科技)
+      - 以色列(youtube阿伟科技)
+      - 印度(youtube阿伟科技)
+      - 🇭🇰HK香港(youtube阿伟科技)_17
+      - 🇭🇰HK香港(youtube阿伟科技)_18
+      - 🇭🇰HK香港(youtube阿伟科技)_19
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
